@@ -1,0 +1,10 @@
+name: ct-env
+
+dependencies:
+  - python
+  - pandas
+  - requests
+  - python-dotenv
+  - psycopg2
+  - glom
+  - kafka-python

@@ -1,0 +1,3516 @@
+{
+  "APIDefs": {
+    "APIVrs": "1.01.05",
+    "DataVrs": "2022:12:29 23:35:39.446",
+    "ElmtDefs": {
+      "Study": {
+        "type": "Object",
+        "nInstances": 437548,
+        "ProtocolSection": {
+          "type": "Object",
+          "nInstances": 437548,
+          "dedLink": "https://prsinfo.clinicaltrials.gov/definitions.html",
+          "IdentificationModule": {
+            "type": "Object",
+            "nInstances": 437548,
+            "dedLink": "https://prsinfo.clinicaltrials.gov/definitions.html#identification",
+            "NCTId": {
+              "type": "String",
+              "order": "Alphabetic",
+              "nInstances": 437548,
+              "nUniqueValues": 437548
+            },
+            "NCTIdAliasList": {
+              "type": "Array",
+              "nInstances": 2998,
+              "minNChildInstances": 1,
+              "maxNChildInstances": 23,
+              "NCTIdAlias": {
+                "type": "String",
+                "order": "Alphabetic",
+                "nInstances": 3185,
+                "nUniqueValues": 3185
+              }
+            },
+            "OrgStudyIdInfo": {
+              "type": "Object",
+              "nInstances": 437491,
+              "OrgStudyId": {
+                "type": "String",
+                "order": "Alphabetic",
+                "nInstances": 437491,
+                "nUniqueValues": 424957
+              },
+              "OrgStudyIdType": {
+                "type": "String",
+                "order": "Alphabetic",
+                "nInstances": 4518,
+                "nUniqueValues": 3
+              },
+              "OrgStudyIdDomain": {
+                "type": "String",
+                "order": "Alphabetic",
+                "nInstances": 0,
+                "nUniqueValues": 0
+              },
+              "OrgStudyIdLink": {
+                "type": "String",
+                "order": "Alphabetic",
+                "nInstances": 4518,
+                "nUniqueValues": 4501
+              }
+            },
+            "SecondaryIdInfoList": {
+              "type": "Array",
+              "nInstances": 91613,
+              "minNChildInstances": 1,
+              "maxNChildInstances": 81,
+              "SecondaryIdInfo": {
+                "type": "Object",
+                "nInstances": 138559,
+                "SecondaryId": {
+                  "type": "String",
+                  "order": "Alphabetic",
+                  "nInstances": 138559,
+                  "nUniqueValues": 122349
+                },
+                "SecondaryIdType": {
+                  "type": "String",
+                  "order": "Alphabetic",
+                  "nInstances": 104659,
+                  "nUniqueValues": 8
+                },
+                "SecondaryIdDomain": {
+                  "type": "String",
+                  "order": "Alphabetic",
+                  "nInstances": 59058,
+                  "nUniqueValues": 12784
+                },
+                "SecondaryIdLink": {
+                  "type": "String",
+                  "order": "Alphabetic",
+                  "nInstances": 28864,
+                  "nUniqueValues": 17467
+                }
+              }
+            },
+            "Organization": {
+              "type": "Object",
+              "nInstances": 437548,
+              "OrgFullName": {
+                "type": "String",
+                "order": "Alphabetic",
+                "nInstances": 437548,
+                "nUniqueValues": 25590
+              },
+              "OrgClass": {
+                "type": "String",
+                "order": "Alphabetic",
+                "nInstances": 436719,
+                "nUniqueValues": 8
+              }
+            },
+            "BriefTitle": {
+              "type": "String",
+              "order": "Alphabetic",
+              "nInstances": 437548,
+              "nUniqueValues": 435375
+            },
+            "OfficialTitle": {
+              "type": "String",
+              "order": "Alphabetic",
+              "nInstances": 427523,
+              "nUniqueValues": 424278
+            },
+            "Acronym": {
+              "type": "String",
+              "order": "Alphabetic",
+              "nInstances": 119346,
+              "nUniqueValues": 94354
+            }
+          },
+          "StatusModule": {
+            "type": "Object",
+            "nInstances": 437548,
+            "dedLink": "https://prsinfo.clinicaltrials.gov/definitions.html#status",
+            "StatusVerifiedDate": {
+              "type": "String",
+              "order": "Date",
+              "nInstances": 436719,
+              "nUniqueValues": 1613
+            },
+            "OverallStatus": {
+              "type": "String",
+              "order": "Alphabetic",
+              "nInstances": 437548,
+              "nUniqueValues": 14
+            },
+            "LastKnownStatus": {
+              "type": "String",
+              "order": "Alphabetic",
+              "nInstances": 54277,
+              "nUniqueValues": 4
+            },
+            "DelayedPosting": {
+              "type": "String",
+              "order": "Alphabetic",
+              "nInstances": 829,
+              "nUniqueValues": 1
+            },
+            "WhyStopped": {
+              "type": "String",
+              "order": "Alphabetic",
+              "nInstances": 33162,
+              "nUniqueValues": 24482
+            },
+            "ExpandedAccessInfo": {
+              "type": "Object",
+              "nInstances": 431632,
+              "HasExpandedAccess": {
+                "type": "String",
+                "order": "Alphabetic",
+                "nInstances": 431632,
+                "nUniqueValues": 2
+              },
+              "ExpandedAccessNCTId": {
+                "type": "String",
+                "order": "Alphabetic",
+                "nInstances": 678,
+                "nUniqueValues": 201
+              },
+              "ExpandedAccessStatusForNCTId": {
+                "type": "String",
+                "order": "Alphabetic",
+                "nInstances": 678,
+                "nUniqueValues": 4
+              }
+            },
+            "StartDateStruct": {
+              "type": "Object",
+              "nInstances": 432517,
+              "StartDate": {
+                "type": "String",
+                "order": "Date",
+                "nInstances": 432517,
+                "nUniqueValues": 8086
+              },
+              "StartDateType": {
+                "type": "String",
+                "order": "Alphabetic",
+                "nInstances": 248127,
+                "nUniqueValues": 2
+              }
+            },
+            "PrimaryCompletionDateStruct": {
+              "type": "Object",
+              "nInstances": 415738,
+              "PrimaryCompletionDate": {
+                "type": "String",
+                "order": "Date",
+                "nInstances": 415738,
+                "nUniqueValues": 8657
+              },
+              "PrimaryCompletionDateType": {
+                "type": "String",
+                "order": "Alphabetic",
+                "nInstances": 415675,
+                "nUniqueValues": 2
+              }
+            },
+            "CompletionDateStruct": {
+              "type": "Object",
+              "nInstances": 420579,
+              "CompletionDate": {
+                "type": "String",
+                "order": "Date",
+                "nInstances": 420579,
+                "nUniqueValues": 9210
+              },
+              "CompletionDateType": {
+                "type": "String",
+                "order": "Alphabetic",
+                "nInstances": 413774,
+                "nUniqueValues": 2
+              }
+            },
+            "StudyFirstSubmitDate": {
+              "type": "String",
+              "order": "Date",
+              "nInstances": 437548,
+              "nUniqueValues": 7601
+            },
+            "StudyFirstSubmitQCDate": {
+              "type": "String",
+              "order": "Date",
+              "nInstances": 437548,
+              "nUniqueValues": 7402
+            },
+            "StudyFirstPostDateStruct": {
+              "type": "Object",
+              "nInstances": 437548,
+              "StudyFirstPostDate": {
+                "type": "String",
+                "order": "Date",
+                "nInstances": 437548,
+                "nUniqueValues": 5410
+              },
+              "StudyFirstPostDateType": {
+                "type": "String",
+                "order": "Alphabetic",
+                "nInstances": 437548,
+                "nUniqueValues": 2
+              }
+            },
+            "ResultsFirstSubmitDate": {
+              "type": "String",
+              "order": "Date",
+              "nInstances": 56561,
+              "nUniqueValues": 4538
+            },
+            "ResultsFirstSubmitQCDate": {
+              "type": "String",
+              "order": "Date",
+              "nInstances": 56561,
+              "nUniqueValues": 4488
+            },
+            "ResultsFirstPostDateStruct": {
+              "type": "Object",
+              "nInstances": 56561,
+              "ResultsFirstPostDate": {
+                "type": "String",
+                "order": "Date",
+                "nInstances": 56561,
+                "nUniqueValues": 3405
+              },
+              "ResultsFirstPostDateType": {
+                "type": "String",
+                "order": "Alphabetic",
+                "nInstances": 56561,
+                "nUniqueValues": 2
+              }
+            },
+            "ResultsFirstPostedQCCommentsDateStruct": {
+              "type": "Object",
+              "nInstances": 3146,
+              "ResultsFirstPostedQCCommentsDate": {
+                "type": "String",
+                "order": "Date",
+                "nInstances": 3146,
+                "nUniqueValues": 669
+              },
+              "ResultsFirstPostedQCCommentsDateType": {
+                "type": "String",
+                "order": "Alphabetic",
+                "nInstances": 3146,
+                "nUniqueValues": 1
+              }
+            },
+            "DispFirstSubmitDate": {
+              "type": "String",
+              "order": "Date",
+              "nInstances": 8397,
+              "nUniqueValues": 2758
+            },
+            "DispFirstSubmitQCDate": {
+              "type": "String",
+              "order": "Date",
+              "nInstances": 8373,
+              "nUniqueValues": 2800
+            },
+            "DispFirstPostDateStruct": {
+              "type": "Object",
+              "nInstances": 8373,
+              "DispFirstPostDate": {
+                "type": "String",
+                "order": "Date",
+                "nInstances": 8373,
+                "nUniqueValues": 2272
+              },
+              "DispFirstPostDateType": {
+                "type": "String",
+                "order": "Alphabetic",
+                "nInstances": 8373,
+                "nUniqueValues": 2
+              }
+            },
+            "LastUpdateSubmitDate": {
+              "type": "String",
+              "order": "Date",
+              "nInstances": 437548,
+              "nUniqueValues": 6020
+            },
+            "LastUpdatePostDateStruct": {
+              "type": "Object",
+              "nInstances": 437548,
+              "LastUpdatePostDate": {
+                "type": "String",
+                "order": "Date",
+                "nInstances": 437548,
+                "nUniqueValues": 4291
+              },
+              "LastUpdatePostDateType": {
+                "type": "String",
+                "order": "Alphabetic",
+                "nInstances": 437548,
+                "nUniqueValues": 2
+              }
+            }
+          },
+          "SponsorCollaboratorsModule": {
+            "type": "Object",
+            "nInstances": 437548,
+            "dedLink": "https://prsinfo.clinicaltrials.gov/definitions.html#sponsors",
+            "ResponsibleParty": {
+              "type": "Object",
+              "nInstances": 418877,
+              "ResponsiblePartyType": {
+                "type": "String",
+                "order": "Alphabetic",
+                "nInstances": 393100,
+                "nUniqueValues": 3
+              },
+              "ResponsiblePartyInvestigatorFullName": {
+                "type": "String",
+                "order": "Alphabetic",
+                "nInstances": 167085,
+                "nUniqueValues": 78786
+              },
+              "ResponsiblePartyInvestigatorTitle": {
+                "type": "String",
+                "order": "Alphabetic",
+                "nInstances": 167091,
+                "nUniqueValues": 45719
+              },
+              "ResponsiblePartyInvestigatorAffiliation": {
+                "type": "String",
+                "order": "Alphabetic",
+                "nInstances": 167099,
+                "nUniqueValues": 9608
+              },
+              "ResponsiblePartyOldNameTitle": {
+                "type": "String",
+                "order": "Alphabetic",
+                "nInstances": 25683,
+                "nUniqueValues": 17253
+              },
+              "ResponsiblePartyOldOrganization": {
+                "type": "String",
+                "order": "Alphabetic",
+                "nInstances": 25581,
+                "nUniqueValues": 11066
+              }
+            },
+            "LeadSponsor": {
+              "type": "Object",
+              "nInstances": 437548,
+              "LeadSponsorName": {
+                "type": "String",
+                "order": "Alphabetic",
+                "nInstances": 437548,
+                "nUniqueValues": 38204
+              },
+              "LeadSponsorClass": {
+                "type": "String",
+                "order": "Alphabetic",
+                "nInstances": 436719,
+                "nUniqueValues": 9
+              }
+            },
+            "CollaboratorList": {
+              "type": "Array",
+              "nInstances": 144415,
+              "minNChildInstances": 1,
+              "maxNChildInstances": 180,
+              "Collaborator": {
+                "type": "Object",
+                "nInstances": 264465,
+                "CollaboratorName": {
+                  "type": "String",
+                  "order": "Alphabetic",
+                  "nInstances": 264465,
+                  "nUniqueValues": 53306
+                },
+                "CollaboratorClass": {
+                  "type": "String",
+                  "order": "Alphabetic",
+                  "nInstances": 264465,
+                  "nUniqueValues": 9
+                }
+              }
+            }
+          },
+          "OversightModule": {
+            "type": "Object",
+            "nInstances": 433210,
+            "dedLink": "https://prsinfo.clinicaltrials.gov/definitions.html#oversight",
+            "OversightHasDMC": {
+              "type": "String",
+              "order": "Alphabetic",
+              "nInstances": 356893,
+              "nUniqueValues": 2
+            },
+            "IsFDARegulatedDrug": {
+              "type": "String",
+              "order": "Alphabetic",
+              "nInstances": 214632,
+              "nUniqueValues": 2
+            },
+            "IsFDARegulatedDevice": {
+              "type": "String",
+              "order": "Alphabetic",
+              "nInstances": 214601,
+              "nUniqueValues": 2
+            },
+            "IsUnapprovedDevice": {
+              "type": "String",
+              "order": "Alphabetic",
+              "nInstances": 2905,
+              "nUniqueValues": 1
+            },
+            "IsPPSD": {
+              "type": "String",
+              "order": "Alphabetic",
+              "nInstances": 12,
+              "nUniqueValues": 1
+            },
+            "IsUSExport": {
+              "type": "String",
+              "order": "Alphabetic",
+              "nInstances": 32363,
+              "nUniqueValues": 2
+            },
+            "FDAAA801Violation": {
+              "type": "String",
+              "order": "Alphabetic",
+              "nInstances": 4,
+              "nUniqueValues": 1
+            }
+          },
+          "DescriptionModule": {
+            "type": "Object",
+            "nInstances": 436719,
+            "dedLink": "https://prsinfo.clinicaltrials.gov/definitions.html#description",
+            "BriefSummary": {
+              "type": "String",
+              "order": "Alphabetic",
+              "nInstances": 436719,
+              "nUniqueValues": 434402
+            },
+            "DetailedDescription": {
+              "type": "String",
+              "order": "Alphabetic",
+              "nInstances": 293846,
+              "nUniqueValues": 292005
+            }
+          },
+          "ConditionsModule": {
+            "type": "Object",
+            "nInstances": 436694,
+            "dedLink": "https://prsinfo.clinicaltrials.gov/definitions.html#Conditions",
+            "ConditionList": {
+              "type": "Array",
+              "nInstances": 436692,
+              "minNChildInstances": 1,
+              "maxNChildInstances": 310,
+              "Condition": {
+                "type": "String",
+                "order": "Alphabetic",
+                "nInstances": 753690,
+                "nUniqueValues": 102741
+              }
+            },
+            "KeywordList": {
+              "type": "Array",
+              "nInstances": 278061,
+              "minNChildInstances": 1,
+              "maxNChildInstances": 489,
+              "Keyword": {
+                "type": "String",
+                "order": "Alphabetic",
+                "nInstances": 1154210,
+                "nUniqueValues": 322035
+              }
+            }
+          },
+          "DesignModule": {
+            "type": "Object",
+            "nInstances": 436719,
+            "dedLink": "https://prsinfo.clinicaltrials.gov/definitions.html#StudyDesign",
+            "StudyType": {
+              "type": "String",
+              "order": "Alphabetic",
+              "nInstances": 436719,
+              "nUniqueValues": 3,
+              "dedLink": "https://prsinfo.clinicaltrials.gov/definitions.html#StudyType"
+            },
+            "ExpandedAccessTypes": {
+              "type": "Object",
+              "nInstances": 478,
+              "ExpAccTypeIndividual": {
+                "type": "String",
+                "order": "Alphabetic",
+                "nInstances": 231,
+                "nUniqueValues": 1
+              },
+              "ExpAccTypeIntermediate": {
+                "type": "String",
+                "order": "Alphabetic",
+                "nInstances": 151,
+                "nUniqueValues": 1
+              },
+              "ExpAccTypeTreatment": {
+                "type": "String",
+                "order": "Alphabetic",
+                "nInstances": 154,
+                "nUniqueValues": 1
+              }
+            },
+            "PatientRegistry": {
+              "type": "String",
+              "order": "Alphabetic",
+              "nInstances": 73028,
+              "nUniqueValues": 2
+            },
+            "TargetDuration": {
+              "type": "String",
+              "order": "Time",
+              "nInstances": 9743,
+              "nUniqueValues": 173
+            },
+            "PhaseList": {
+              "type": "Array",
+              "nInstances": 337963,
+              "minNChildInstances": 1,
+              "maxNChildInstances": 2,
+              "Phase": {
+                "type": "String",
+                "order": "Alphabetic",
+                "nInstances": 357639,
+                "nUniqueValues": 6
+              }
+            },
+            "DesignInfo": {
+              "type": "Object",
+              "nInstances": 433100,
+              "DesignAllocation": {
+                "type": "String",
+                "order": "Alphabetic",
+                "nInstances": 332271,
+                "nUniqueValues": 3
+              },
+              "DesignInterventionModel": {
+                "type": "String",
+                "order": "Alphabetic",
+                "nInstances": 331394,
+                "nUniqueValues": 5
+              },
+              "DesignInterventionModelDescription": {
+                "type": "String",
+                "order": "Alphabetic",
+                "nInstances": 51191,
+                "nUniqueValues": 46655
+              },
+              "DesignPrimaryPurpose": {
+                "type": "String",
+                "order": "Alphabetic",
+                "nInstances": 330627,
+                "nUniqueValues": 10
+              },
+              "DesignObservationalModelList": {
+                "type": "Array",
+                "nInstances": 91931,
+                "minNChildInstances": 1,
+                "maxNChildInstances": 1,
+                "DesignObservationalModel": {
+                  "type": "String",
+                  "order": "Alphabetic",
+                  "nInstances": 91931,
+                  "nUniqueValues": 9
+                }
+              },
+              "DesignTimePerspectiveList": {
+                "type": "Array",
+                "nInstances": 94886,
+                "minNChildInstances": 1,
+                "maxNChildInstances": 1,
+                "DesignTimePerspective": {
+                  "type": "String",
+                  "order": "Alphabetic",
+                  "nInstances": 94886,
+                  "nUniqueValues": 4
+                }
+              },
+              "DesignMaskingInfo": {
+                "type": "Object",
+                "nInstances": 332746,
+                "DesignMasking": {
+                  "type": "String",
+                  "order": "Alphabetic",
+                  "nInstances": 332737,
+                  "nUniqueValues": 5
+                },
+                "DesignMaskingDescription": {
+                  "type": "String",
+                  "order": "Alphabetic",
+                  "nInstances": 26277,
+                  "nUniqueValues": 22433
+                },
+                "DesignWhoMaskedList": {
+                  "type": "Array",
+                  "nInstances": 138923,
+                  "minNChildInstances": 1,
+                  "maxNChildInstances": 4,
+                  "DesignWhoMasked": {
+                    "type": "String",
+                    "order": "Alphabetic",
+                    "nInstances": 317764,
+                    "nUniqueValues": 4
+                  }
+                }
+              }
+            },
+            "BioSpec": {
+              "type": "Object",
+              "nInstances": 20990,
+              "BioSpecRetention": {
+                "type": "String",
+                "order": "Alphabetic",
+                "nInstances": 20898,
+                "nUniqueValues": 3
+              },
+              "BioSpecDescription": {
+                "type": "String",
+                "order": "Alphabetic",
+                "nInstances": 20990,
+                "nUniqueValues": 16190
+              }
+            },
+            "EnrollmentInfo": {
+              "type": "Object",
+              "nInstances": 430728,
+              "EnrollmentCount": {
+                "type": "String",
+                "order": "Numeric",
+                "nInstances": 430728,
+                "nUniqueValues": 7632
+              },
+              "EnrollmentType": {
+                "type": "String",
+                "order": "Alphabetic",
+                "nInstances": 420653,
+                "nUniqueValues": 2
+              }
+            }
+          },
+          "ArmsInterventionsModule": {
+            "type": "Object",
+            "nInstances": 414735,
+            "dedLink": "https://prsinfo.clinicaltrials.gov/definitions.html#ArmsGroupsInterventions",
+            "ArmGroupList": {
+              "type": "Array",
+              "nInstances": 376841,
+              "minNChildInstances": 1,
+              "maxNChildInstances": 49,
+              "ArmGroup": {
+                "type": "Object",
+                "nInstances": 789031,
+                "ArmGroupLabel": {
+                  "type": "String",
+                  "order": "Alphabetic",
+                  "nInstances": 789031,
+                  "nUniqueValues": 487335
+                },
+                "ArmGroupType": {
+                  "type": "String",
+                  "order": "Alphabetic",
+                  "nInstances": 673162,
+                  "nUniqueValues": 6
+                },
+                "ArmGroupDescription": {
+                  "type": "String",
+                  "order": "Alphabetic",
+                  "nInstances": 694228,
+                  "nUniqueValues": 644985
+                },
+                "ArmGroupInterventionList": {
+                  "type": "Array",
+                  "nInstances": 705159,
+                  "minNChildInstances": 1,
+                  "maxNChildInstances": 97,
+                  "ArmGroupInterventionName": {
+                    "type": "String",
+                    "order": "Alphabetic",
+                    "nInstances": 961446,
+                    "nUniqueValues": 378730
+                  }
+                }
+              }
+            },
+            "InterventionList": {
+              "type": "Array",
+              "nInstances": 393422,
+              "minNChildInstances": 1,
+              "maxNChildInstances": 97,
+              "Intervention": {
+                "type": "Object",
+                "nInstances": 744463,
+                "InterventionType": {
+                  "type": "String",
+                  "order": "Alphabetic",
+                  "nInstances": 744463,
+                  "nUniqueValues": 11
+                },
+                "InterventionName": {
+                  "type": "String",
+                  "order": "Alphabetic",
+                  "nInstances": 744332,
+                  "nUniqueValues": 381717
+                },
+                "InterventionDescription": {
+                  "type": "String",
+                  "order": "Alphabetic",
+                  "nInstances": 653003,
+                  "nUniqueValues": 559152
+                },
+                "InterventionArmGroupLabelList": {
+                  "type": "Array",
+                  "nInstances": 687035,
+                  "minNChildInstances": 1,
+                  "maxNChildInstances": 44,
+                  "InterventionArmGroupLabel": {
+                    "type": "String",
+                    "order": "Alphabetic",
+                    "nInstances": 964909,
+                    "nUniqueValues": 449791
+                  }
+                },
+                "InterventionOtherNameList": {
+                  "type": "Array",
+                  "nInstances": 208813,
+                  "minNChildInstances": 1,
+                  "maxNChildInstances": 216,
+                  "InterventionOtherName": {
+                    "type": "String",
+                    "order": "Alphabetic",
+                    "nInstances": 367155,
+                    "nUniqueValues": 126414
+                  }
+                }
+              }
+            }
+          },
+          "OutcomesModule": {
+            "type": "Object",
+            "nInstances": 420218,
+            "dedLink": "https://prsinfo.clinicaltrials.gov/definitions.html#Outcomes",
+            "PrimaryOutcomeList": {
+              "type": "Array",
+              "nInstances": 420171,
+              "minNChildInstances": 1,
+              "maxNChildInstances": 217,
+              "PrimaryOutcome": {
+                "type": "Object",
+                "nInstances": 813236,
+                "PrimaryOutcomeMeasure": {
+                  "type": "String",
+                  "order": "Alphabetic",
+                  "nInstances": 813234,
+                  "nUniqueValues": 624964
+                },
+                "PrimaryOutcomeDescription": {
+                  "type": "String",
+                  "order": "Alphabetic",
+                  "nInstances": 638928,
+                  "nUniqueValues": 541065
+                },
+                "PrimaryOutcomeTimeFrame": {
+                  "type": "String",
+                  "order": "Alphabetic",
+                  "nInstances": 792370,
+                  "nUniqueValues": 252172
+                }
+              }
+            },
+            "SecondaryOutcomeList": {
+              "type": "Array",
+              "nInstances": 318122,
+              "minNChildInstances": 1,
+              "maxNChildInstances": 459,
+              "SecondaryOutcome": {
+                "type": "Object",
+                "nInstances": 1630313,
+                "SecondaryOutcomeMeasure": {
+                  "type": "String",
+                  "order": "Alphabetic",
+                  "nInstances": 1630308,
+                  "nUniqueValues": 1180510
+                },
+                "SecondaryOutcomeDescription": {
+                  "type": "String",
+                  "order": "Alphabetic",
+                  "nInstances": 1257062,
+                  "nUniqueValues": 1032141
+                },
+                "SecondaryOutcomeTimeFrame": {
+                  "type": "String",
+                  "order": "Alphabetic",
+                  "nInstances": 1598748,
+                  "nUniqueValues": 371076
+                }
+              }
+            },
+            "OtherOutcomeList": {
+              "type": "Array",
+              "nInstances": 34021,
+              "minNChildInstances": 1,
+              "maxNChildInstances": 358,
+              "OtherOutcome": {
+                "type": "Object",
+                "nInstances": 129359,
+                "OtherOutcomeMeasure": {
+                  "type": "String",
+                  "order": "Alphabetic",
+                  "nInstances": 129359,
+                  "nUniqueValues": 105155
+                },
+                "OtherOutcomeDescription": {
+                  "type": "String",
+                  "order": "Alphabetic",
+                  "nInstances": 112295,
+                  "nUniqueValues": 96330
+                },
+                "OtherOutcomeTimeFrame": {
+                  "type": "String",
+                  "order": "Alphabetic",
+                  "nInstances": 129305,
+                  "nUniqueValues": 37796
+                }
+              }
+            }
+          },
+          "EligibilityModule": {
+            "type": "Object",
+            "nInstances": 436719,
+            "dedLink": "https://prsinfo.clinicaltrials.gov/definitions.html#Eligibility",
+            "EligibilityCriteria": {
+              "type": "String",
+              "order": "Alphabetic",
+              "nInstances": 436613,
+              "nUniqueValues": 431925
+            },
+            "HealthyVolunteers": {
+              "type": "String",
+              "order": "Alphabetic",
+              "nInstances": 427008,
+              "nUniqueValues": 2
+            },
+            "Gender": {
+              "type": "String",
+              "order": "Alphabetic",
+              "nInstances": 436091,
+              "nUniqueValues": 3
+            },
+            "GenderBased": {
+              "type": "String",
+              "order": "Alphabetic",
+              "nInstances": 10478,
+              "nUniqueValues": 1
+            },
+            "GenderDescription": {
+              "type": "String",
+              "order": "Alphabetic",
+              "nInstances": 6984,
+              "nUniqueValues": 5311
+            },
+            "MinimumAge": {
+              "type": "String",
+              "order": "Time",
+              "nInstances": 406850,
+              "nUniqueValues": 314
+            },
+            "MaximumAge": {
+              "type": "String",
+              "order": "Time",
+              "nInstances": 228532,
+              "nUniqueValues": 466
+            },
+            "StdAgeList": {
+              "type": "Array",
+              "nInstances": 436719,
+              "minNChildInstances": 1,
+              "maxNChildInstances": 3,
+              "StdAge": {
+                "type": "String",
+                "order": "Alphabetic",
+                "nInstances": 825022,
+                "nUniqueValues": 3
+              }
+            },
+            "StudyPopulation": {
+              "type": "String",
+              "order": "Alphabetic",
+              "nInstances": 93695,
+              "nUniqueValues": 89740
+            },
+            "SamplingMethod": {
+              "type": "String",
+              "order": "Alphabetic",
+              "nInstances": 93707,
+              "nUniqueValues": 2
+            }
+          },
+          "ContactsLocationsModule": {
+            "type": "Object",
+            "nInstances": 423177,
+            "dedLink": "https://prsinfo.clinicaltrials.gov/definitions.html#Locations",
+            "CentralContactList": {
+              "type": "Array",
+              "nInstances": 114866,
+              "minNChildInstances": 1,
+              "maxNChildInstances": 2,
+              "CentralContact": {
+                "type": "Object",
+                "nInstances": 171471,
+                "CentralContactName": {
+                  "type": "String",
+                  "order": "Alphabetic",
+                  "nInstances": 171471,
+                  "nUniqueValues": 134718
+                },
+                "CentralContactRole": {
+                  "type": "String",
+                  "order": "Alphabetic",
+                  "nInstances": 171471,
+                  "nUniqueValues": 1
+                },
+                "CentralContactPhone": {
+                  "type": "String",
+                  "order": "Alphabetic",
+                  "nInstances": 160954,
+                  "nUniqueValues": 110335
+                },
+                "CentralContactPhoneExt": {
+                  "type": "String",
+                  "order": "Alphabetic",
+                  "nInstances": 23015,
+                  "nUniqueValues": 8554
+                },
+                "CentralContactEMail": {
+                  "type": "String",
+                  "order": "Alphabetic",
+                  "nInstances": 167525,
+                  "nUniqueValues": 115791
+                }
+              }
+            },
+            "OverallOfficialList": {
+              "type": "Array",
+              "nInstances": 337211,
+              "minNChildInstances": 1,
+              "maxNChildInstances": 286,
+              "OverallOfficial": {
+                "type": "Object",
+                "nInstances": 424964,
+                "OverallOfficialName": {
+                  "type": "String",
+                  "order": "Alphabetic",
+                  "nInstances": 424964,
+                  "nUniqueValues": 277227
+                },
+                "OverallOfficialAffiliation": {
+                  "type": "String",
+                  "order": "Alphabetic",
+                  "nInstances": 422403,
+                  "nUniqueValues": 108869
+                },
+                "OverallOfficialRole": {
+                  "type": "String",
+                  "order": "Alphabetic",
+                  "nInstances": 423564,
+                  "nUniqueValues": 4
+                }
+              }
+            },
+            "LocationList": {
+              "type": "Array",
+              "nInstances": 389857,
+              "minNChildInstances": 1,
+              "maxNChildInstances": 3511,
+              "Location": {
+                "type": "Object",
+                "nInstances": 2793766,
+                "LocationFacility": {
+                  "type": "String",
+                  "order": "Alphabetic",
+                  "nInstances": 2573895,
+                  "nUniqueValues": 635744
+                },
+                "LocationStatus": {
+                  "type": "String",
+                  "order": "Alphabetic",
+                  "nInstances": 477245,
+                  "nUniqueValues": 9
+                },
+                "LocationCity": {
+                  "type": "String",
+                  "order": "Alphabetic",
+                  "nInstances": 2793660,
+                  "nUniqueValues": 63647
+                },
+                "LocationState": {
+                  "type": "String",
+                  "order": "Alphabetic",
+                  "nInstances": 1667157,
+                  "nUniqueValues": 14862
+                },
+                "LocationZip": {
+                  "type": "String",
+                  "order": "Alphabetic",
+                  "nInstances": 2233511,
+                  "nUniqueValues": 87190
+                },
+                "LocationCountry": {
+                  "type": "String",
+                  "order": "Alphabetic",
+                  "nInstances": 2793660,
+                  "nUniqueValues": 221
+                },
+                "LocationContactList": {
+                  "type": "Array",
+                  "nInstances": 324511,
+                  "minNChildInstances": 1,
+                  "maxNChildInstances": 48,
+                  "LocationContact": {
+                    "type": "Object",
+                    "nInstances": 567799,
+                    "LocationContactName": {
+                      "type": "String",
+                      "order": "Alphabetic",
+                      "nInstances": 555777,
+                      "nUniqueValues": 299650
+                    },
+                    "LocationContactRole": {
+                      "type": "String",
+                      "order": "Alphabetic",
+                      "nInstances": 567799,
+                      "nUniqueValues": 4
+                    },
+                    "LocationContactPhone": {
+                      "type": "String",
+                      "order": "Alphabetic",
+                      "nInstances": 239933,
+                      "nUniqueValues": 123452
+                    },
+                    "LocationContactPhoneExt": {
+                      "type": "String",
+                      "order": "Alphabetic",
+                      "nInstances": 20247,
+                      "nUniqueValues": 8085
+                    },
+                    "LocationContactEMail": {
+                      "type": "String",
+                      "order": "Alphabetic",
+                      "nInstances": 239260,
+                      "nUniqueValues": 138237
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "ReferencesModule": {
+            "type": "Object",
+            "nInstances": 180711,
+            "dedLink": "https://prsinfo.clinicaltrials.gov/definitions.html#References",
+            "ReferenceList": {
+              "type": "Array",
+              "nInstances": 155610,
+              "minNChildInstances": 1,
+              "maxNChildInstances": 654,
+              "Reference": {
+                "type": "Object",
+                "nInstances": 771059,
+                "ReferencePMID": {
+                  "type": "String",
+                  "order": "Alphabetic",
+                  "nInstances": 733692,
+                  "nUniqueValues": 554080
+                },
+                "ReferenceType": {
+                  "type": "String",
+                  "order": "Alphabetic",
+                  "nInstances": 771059,
+                  "nUniqueValues": 3
+                },
+                "ReferenceCitation": {
+                  "type": "String",
+                  "order": "Alphabetic",
+                  "nInstances": 771059,
+                  "nUniqueValues": 590177
+                },
+                "RetractionList": {
+                  "type": "Array",
+                  "nInstances": 314,
+                  "minNChildInstances": 1,
+                  "maxNChildInstances": 2,
+                  "Retraction": {
+                    "type": "Object",
+                    "nInstances": 319,
+                    "RetractionPMID": {
+                      "type": "String",
+                      "order": "Alphabetic",
+                      "nInstances": 319,
+                      "nUniqueValues": 236
+                    },
+                    "RetractionSource": {
+                      "type": "String",
+                      "order": "Alphabetic",
+                      "nInstances": 319,
+                      "nUniqueValues": 235
+                    }
+                  }
+                }
+              }
+            },
+            "SeeAlsoLinkList": {
+              "type": "Array",
+              "nInstances": 47762,
+              "minNChildInstances": 1,
+              "maxNChildInstances": 75,
+              "SeeAlsoLink": {
+                "type": "Object",
+                "nInstances": 63716,
+                "SeeAlsoLinkLabel": {
+                  "type": "String",
+                  "order": "Alphabetic",
+                  "nInstances": 63716,
+                  "nUniqueValues": 27591
+                },
+                "SeeAlsoLinkURL": {
+                  "type": "String",
+                  "order": "Alphabetic",
+                  "nInstances": 63716,
+                  "nUniqueValues": 37531
+                }
+              }
+            },
+            "AvailIPDList": {
+              "type": "Array",
+              "nInstances": 2619,
+              "minNChildInstances": 1,
+              "maxNChildInstances": 26,
+              "AvailIPD": {
+                "type": "Object",
+                "nInstances": 10438,
+                "AvailIPDId": {
+                  "type": "String",
+                  "order": "Alphabetic",
+                  "nInstances": 8875,
+                  "nUniqueValues": 1705
+                },
+                "AvailIPDType": {
+                  "type": "String",
+                  "order": "Alphabetic",
+                  "nInstances": 10438,
+                  "nUniqueValues": 310
+                },
+                "AvailIPDURL": {
+                  "type": "String",
+                  "order": "Alphabetic",
+                  "nInstances": 10438,
+                  "nUniqueValues": 1356
+                },
+                "AvailIPDComment": {
+                  "type": "String",
+                  "order": "Alphabetic",
+                  "nInstances": 9012,
+                  "nUniqueValues": 627
+                }
+              }
+            }
+          },
+          "IPDSharingStatementModule": {
+            "type": "Object",
+            "nInstances": 188834,
+            "dedLink": "https://prsinfo.clinicaltrials.gov/definitions.html#IPDSharing",
+            "IPDSharing": {
+              "type": "String",
+              "order": "Alphabetic",
+              "nInstances": 188834,
+              "nUniqueValues": 3
+            },
+            "IPDSharingDescription": {
+              "type": "String",
+              "order": "Alphabetic",
+              "nInstances": 46333,
+              "nUniqueValues": 26722
+            },
+            "IPDSharingInfoTypeList": {
+              "type": "Array",
+              "nInstances": 16641,
+              "minNChildInstances": 1,
+              "maxNChildInstances": 5,
+              "IPDSharingInfoType": {
+                "type": "String",
+                "order": "Alphabetic",
+                "nInstances": 47276,
+                "nUniqueValues": 5
+              }
+            },
+            "IPDSharingTimeFrame": {
+              "type": "String",
+              "order": "Alphabetic",
+              "nInstances": 16111,
+              "nUniqueValues": 8617
+            },
+            "IPDSharingAccessCriteria": {
+              "type": "String",
+              "order": "Alphabetic",
+              "nInstances": 14826,
+              "nUniqueValues": 8157
+            },
+            "IPDSharingURL": {
+              "type": "String",
+              "order": "Alphabetic",
+              "nInstances": 7811,
+              "nUniqueValues": 1331
+            }
+          }
+        },
+        "ResultsSection": {
+          "type": "Object",
+          "nInstances": 59928,
+          "dedLink": "https://prsinfo.clinicaltrials.gov/results_definitions.html",
+          "ParticipantFlowModule": {
+            "type": "Object",
+            "nInstances": 56561,
+            "dedLink": "https://prsinfo.clinicaltrials.gov/results_definitions.html#Result_ParticipantFlow",
+            "FlowPreAssignmentDetails": {
+              "type": "String",
+              "order": "Alphabetic",
+              "nInstances": 21917,
+              "nUniqueValues": 21267
+            },
+            "FlowRecruitmentDetails": {
+              "type": "String",
+              "order": "Alphabetic",
+              "nInstances": 23634,
+              "nUniqueValues": 23358
+            },
+            "FlowTypeUnitsAnalyzed": {
+              "type": "String",
+              "order": "Alphabetic",
+              "nInstances": 509,
+              "nUniqueValues": 277
+            },
+            "FlowGroupList": {
+              "type": "Array",
+              "nInstances": 56561,
+              "minNChildInstances": 1,
+              "maxNChildInstances": 47,
+              "FlowGroup": {
+                "type": "Object",
+                "nInstances": 133954,
+                "FlowGroupId": {
+                  "type": "String",
+                  "order": "Alphabetic",
+                  "nInstances": 133954,
+                  "nUniqueValues": 47
+                },
+                "FlowGroupTitle": {
+                  "type": "String",
+                  "order": "Alphabetic",
+                  "nInstances": 133949,
+                  "nUniqueValues": 98445
+                },
+                "FlowGroupDescription": {
+                  "type": "String",
+                  "order": "Alphabetic",
+                  "nInstances": 132759,
+                  "nUniqueValues": 126987
+                }
+              }
+            },
+            "FlowPeriodList": {
+              "type": "Array",
+              "nInstances": 56561,
+              "minNChildInstances": 1,
+              "maxNChildInstances": 31,
+              "FlowPeriod": {
+                "type": "Object",
+                "nInstances": 70553,
+                "FlowPeriodTitle": {
+                  "type": "String",
+                  "order": "Alphabetic",
+                  "nInstances": 70553,
+                  "nUniqueValues": 12511
+                },
+                "FlowMilestoneList": {
+                  "type": "Array",
+                  "nInstances": 70553,
+                  "minNChildInstances": 3,
+                  "maxNChildInstances": 24,
+                  "FlowMilestone": {
+                    "type": "Object",
+                    "nInstances": 228800,
+                    "FlowMilestoneType": {
+                      "type": "String",
+                      "order": "Alphabetic",
+                      "nInstances": 228800,
+                      "nUniqueValues": 8650
+                    },
+                    "FlowMilestoneComment": {
+                      "type": "String",
+                      "order": "Alphabetic",
+                      "nInstances": 5112,
+                      "nUniqueValues": 4311
+                    },
+                    "FlowAchievementList": {
+                      "type": "Array",
+                      "nInstances": 228800,
+                      "minNChildInstances": 1,
+                      "maxNChildInstances": 47,
+                      "FlowAchievement": {
+                        "type": "Object",
+                        "nInstances": 600164,
+                        "FlowAchievementGroupId": {
+                          "type": "String",
+                          "order": "Alphabetic",
+                          "nInstances": 600164,
+                          "nUniqueValues": 47
+                        },
+                        "FlowAchievementComment": {
+                          "type": "String",
+                          "order": "Alphabetic",
+                          "nInstances": 22509,
+                          "nUniqueValues": 14154
+                        },
+                        "FlowAchievementNumSubjects": {
+                          "type": "String",
+                          "order": "Numeric",
+                          "nInstances": 600164,
+                          "nUniqueValues": 4448
+                        },
+                        "FlowAchievementNumUnits": {
+                          "type": "String",
+                          "order": "Numeric",
+                          "nInstances": 4986,
+                          "nUniqueValues": 352
+                        }
+                      }
+                    }
+                  }
+                },
+                "FlowDropWithdrawList": {
+                  "type": "Array",
+                  "nInstances": 41232,
+                  "minNChildInstances": 1,
+                  "maxNChildInstances": 50,
+                  "FlowDropWithdraw": {
+                    "type": "Object",
+                    "nInstances": 145864,
+                    "FlowDropWithdrawType": {
+                      "type": "String",
+                      "order": "Alphabetic",
+                      "nInstances": 145864,
+                      "nUniqueValues": 24177
+                    },
+                    "FlowDropWithdrawComment": {
+                      "type": "String",
+                      "order": "Alphabetic",
+                      "nInstances": 0,
+                      "nUniqueValues": 0
+                    },
+                    "FlowReasonList": {
+                      "type": "Array",
+                      "nInstances": 145864,
+                      "minNChildInstances": 1,
+                      "maxNChildInstances": 47,
+                      "FlowReason": {
+                        "type": "Object",
+                        "nInstances": 423787,
+                        "FlowReasonGroupId": {
+                          "type": "String",
+                          "order": "Alphabetic",
+                          "nInstances": 423787,
+                          "nUniqueValues": 47
+                        },
+                        "FlowReasonComment": {
+                          "type": "String",
+                          "order": "Alphabetic",
+                          "nInstances": 0,
+                          "nUniqueValues": 0
+                        },
+                        "FlowReasonNumSubjects": {
+                          "type": "String",
+                          "order": "Numeric",
+                          "nInstances": 423787,
+                          "nUniqueValues": 991
+                        },
+                        "FlowReasonNumUnits": {
+                          "type": "String",
+                          "order": "Numeric",
+                          "nInstances": 0,
+                          "nUniqueValues": 0
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "BaselineCharacteristicsModule": {
+            "type": "Object",
+            "nInstances": 56561,
+            "dedLink": "https://prsinfo.clinicaltrials.gov/results_definitions.html#Result_Baseline",
+            "BaselinePopulationDescription": {
+              "type": "String",
+              "order": "Alphabetic",
+              "nInstances": 17716,
+              "nUniqueValues": 14899
+            },
+            "BaselineTypeUnitsAnalyzed": {
+              "type": "String",
+              "order": "Alphabetic",
+              "nInstances": 266,
+              "nUniqueValues": 152
+            },
+            "BaselineGroupList": {
+              "type": "Array",
+              "nInstances": 56561,
+              "minNChildInstances": 1,
+              "maxNChildInstances": 48,
+              "BaselineGroup": {
+                "type": "Object",
+                "nInstances": 163524,
+                "BaselineGroupId": {
+                  "type": "String",
+                  "order": "Alphabetic",
+                  "nInstances": 163524,
+                  "nUniqueValues": 48
+                },
+                "BaselineGroupTitle": {
+                  "type": "String",
+                  "order": "Alphabetic",
+                  "nInstances": 163524,
+                  "nUniqueValues": 88738
+                },
+                "BaselineGroupDescription": {
+                  "type": "String",
+                  "order": "Alphabetic",
+                  "nInstances": 161617,
+                  "nUniqueValues": 118004
+                }
+              }
+            },
+            "BaselineDenomList": {
+              "type": "Array",
+              "nInstances": 56561,
+              "minNChildInstances": 1,
+              "maxNChildInstances": 2,
+              "BaselineDenom": {
+                "type": "Object",
+                "nInstances": 56826,
+                "BaselineDenomUnits": {
+                  "type": "String",
+                  "order": "Alphabetic",
+                  "nInstances": 56826,
+                  "nUniqueValues": 151
+                },
+                "BaselineDenomCountList": {
+                  "type": "Array",
+                  "nInstances": 56826,
+                  "minNChildInstances": 1,
+                  "maxNChildInstances": 48,
+                  "BaselineDenomCount": {
+                    "type": "Object",
+                    "nInstances": 164166,
+                    "BaselineDenomCountGroupId": {
+                      "type": "String",
+                      "order": "Alphabetic",
+                      "nInstances": 164166,
+                      "nUniqueValues": 48
+                    },
+                    "BaselineDenomCountValue": {
+                      "type": "String",
+                      "order": "Numeric",
+                      "nInstances": 164166,
+                      "nUniqueValues": 4097
+                    }
+                  }
+                }
+              }
+            },
+            "BaselineMeasureList": {
+              "type": "Array",
+              "nInstances": 56561,
+              "minNChildInstances": 2,
+              "maxNChildInstances": 69,
+              "BaselineMeasure": {
+                "type": "Object",
+                "nInstances": 272390,
+                "BaselineMeasureTitle": {
+                  "type": "String",
+                  "order": "Alphabetic",
+                  "nInstances": 272390,
+                  "nUniqueValues": 40742
+                },
+                "BaselineMeasureDescription": {
+                  "type": "String",
+                  "order": "Alphabetic",
+                  "nInstances": 30140,
+                  "nUniqueValues": 25486
+                },
+                "BaselineMeasurePopulationDescription": {
+                  "type": "String",
+                  "order": "Alphabetic",
+                  "nInstances": 13187,
+                  "nUniqueValues": 5331
+                },
+                "BaselineMeasureParamType": {
+                  "type": "String",
+                  "order": "Alphabetic",
+                  "nInstances": 271408,
+                  "nUniqueValues": 9
+                },
+                "BaselineMeasureDispersionType": {
+                  "type": "String",
+                  "order": "Alphabetic",
+                  "nInstances": 85209,
+                  "nUniqueValues": 3
+                },
+                "BaselineMeasureUnitOfMeasure": {
+                  "type": "String",
+                  "order": "Alphabetic",
+                  "nInstances": 271624,
+                  "nUniqueValues": 5051
+                },
+                "BaselineMeasureCalculatePct": {
+                  "type": "String",
+                  "order": "Alphabetic",
+                  "nInstances": 3893,
+                  "nUniqueValues": 1
+                },
+                "BaselineMeasureDenomUnitsSelected": {
+                  "type": "String",
+                  "order": "Alphabetic",
+                  "nInstances": 1552,
+                  "nUniqueValues": 74
+                },
+                "BaselineMeasureDenomList": {
+                  "type": "Array",
+                  "nInstances": 681,
+                  "minNChildInstances": 1,
+                  "maxNChildInstances": 2,
+                  "BaselineMeasureDenom": {
+                    "type": "Object",
+                    "nInstances": 1358,
+                    "BaselineMeasureDenomUnits": {
+                      "type": "String",
+                      "order": "Alphabetic",
+                      "nInstances": 1358,
+                      "nUniqueValues": 61
+                    },
+                    "BaselineMeasureDenomCountList": {
+                      "type": "Array",
+                      "nInstances": 1358,
+                      "minNChildInstances": 1,
+                      "maxNChildInstances": 8,
+                      "BaselineMeasureDenomCount": {
+                        "type": "Object",
+                        "nInstances": 3222,
+                        "BaselineMeasureDenomCountGroupId": {
+                          "type": "String",
+                          "order": "Alphabetic",
+                          "nInstances": 3222,
+                          "nUniqueValues": 8
+                        },
+                        "BaselineMeasureDenomCountValue": {
+                          "type": "String",
+                          "order": "Numeric",
+                          "nInstances": 3222,
+                          "nUniqueValues": 325
+                        }
+                      }
+                    }
+                  }
+                },
+                "BaselineClassList": {
+                  "type": "Array",
+                  "nInstances": 272074,
+                  "minNChildInstances": 1,
+                  "maxNChildInstances": 376,
+                  "BaselineClass": {
+                    "type": "Object",
+                    "nInstances": 368064,
+                    "BaselineClassTitle": {
+                      "type": "String",
+                      "order": "Alphabetic",
+                      "nInstances": 159247,
+                      "nUniqueValues": 36214
+                    },
+                    "BaselineClassDenomList": {
+                      "type": "Array",
+                      "nInstances": 51055,
+                      "minNChildInstances": 1,
+                      "maxNChildInstances": 2,
+                      "BaselineClassDenom": {
+                        "type": "Object",
+                        "nInstances": 51135,
+                        "BaselineClassDenomUnits": {
+                          "type": "String",
+                          "order": "Alphabetic",
+                          "nInstances": 51135,
+                          "nUniqueValues": 8
+                        },
+                        "BaselineClassDenomCountList": {
+                          "type": "Array",
+                          "nInstances": 51135,
+                          "minNChildInstances": 1,
+                          "maxNChildInstances": 48,
+                          "BaselineClassDenomCount": {
+                            "type": "Object",
+                            "nInstances": 150745,
+                            "BaselineClassDenomCountGroupId": {
+                              "type": "String",
+                              "order": "Alphabetic",
+                              "nInstances": 150745,
+                              "nUniqueValues": 48
+                            },
+                            "BaselineClassDenomCountValue": {
+                              "type": "String",
+                              "order": "Numeric",
+                              "nInstances": 150745,
+                              "nUniqueValues": 2320
+                            }
+                          }
+                        }
+                      }
+                    },
+                    "BaselineCategoryList": {
+                      "type": "Array",
+                      "nInstances": 366496,
+                      "minNChildInstances": 1,
+                      "maxNChildInstances": 31,
+                      "BaselineCategory": {
+                        "type": "Object",
+                        "nInstances": 625416,
+                        "BaselineCategoryTitle": {
+                          "type": "String",
+                          "order": "Alphabetic",
+                          "nInstances": 377592,
+                          "nUniqueValues": 16625
+                        },
+                        "BaselineMeasurementList": {
+                          "type": "Array",
+                          "nInstances": 623659,
+                          "minNChildInstances": 1,
+                          "maxNChildInstances": 48,
+                          "BaselineMeasurement": {
+                            "type": "Object",
+                            "nInstances": 1810963,
+                            "BaselineMeasurementGroupId": {
+                              "type": "String",
+                              "order": "Alphabetic",
+                              "nInstances": 1810963,
+                              "nUniqueValues": 48
+                            },
+                            "BaselineMeasurementValue": {
+                              "type": "String",
+                              "order": "Alphabetic",
+                              "nInstances": 1810963,
+                              "nUniqueValues": 30567
+                            },
+                            "BaselineMeasurementSpread": {
+                              "type": "String",
+                              "order": "Alphabetic",
+                              "nInstances": 219053,
+                              "nUniqueValues": 21243
+                            },
+                            "BaselineMeasurementLowerLimit": {
+                              "type": "String",
+                              "order": "Alphabetic",
+                              "nInstances": 42761,
+                              "nUniqueValues": 3613
+                            },
+                            "BaselineMeasurementUpperLimit": {
+                              "type": "String",
+                              "order": "Alphabetic",
+                              "nInstances": 42717,
+                              "nUniqueValues": 5045
+                            },
+                            "BaselineMeasurementComment": {
+                              "type": "String",
+                              "order": "Alphabetic",
+                              "nInstances": 4094,
+                              "nUniqueValues": 747
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "OutcomeMeasuresModule": {
+            "type": "Object",
+            "nInstances": 56561,
+            "dedLink": "https://prsinfo.clinicaltrials.gov/results_definitions.html#Result_Outcome_Measure",
+            "OutcomeMeasureList": {
+              "type": "Array",
+              "nInstances": 56561,
+              "minNChildInstances": 1,
+              "maxNChildInstances": 338,
+              "OutcomeMeasure": {
+                "type": "Object",
+                "nInstances": 451910,
+                "OutcomeMeasureType": {
+                  "type": "String",
+                  "order": "Alphabetic",
+                  "nInstances": 451910,
+                  "nUniqueValues": 4
+                },
+                "OutcomeMeasureTitle": {
+                  "type": "String",
+                  "order": "Alphabetic",
+                  "nInstances": 451910,
+                  "nUniqueValues": 370928
+                },
+                "OutcomeMeasureDescription": {
+                  "type": "String",
+                  "order": "Alphabetic",
+                  "nInstances": 412656,
+                  "nUniqueValues": 340696
+                },
+                "OutcomeMeasurePopulationDescription": {
+                  "type": "String",
+                  "order": "Alphabetic",
+                  "nInstances": 348596,
+                  "nUniqueValues": 136555
+                },
+                "OutcomeMeasureReportingStatus": {
+                  "type": "String",
+                  "order": "Alphabetic",
+                  "nInstances": 450578,
+                  "nUniqueValues": 2
+                },
+                "OutcomeMeasureAnticipatedPostingDate": {
+                  "type": "String",
+                  "order": "Date",
+                  "nInstances": 4723,
+                  "nUniqueValues": 195
+                },
+                "OutcomeMeasureParamType": {
+                  "type": "String",
+                  "order": "Alphabetic",
+                  "nInstances": 420342,
+                  "nUniqueValues": 9
+                },
+                "OutcomeMeasureDispersionType": {
+                  "type": "String",
+                  "order": "Alphabetic",
+                  "nInstances": 273053,
+                  "nUniqueValues": 42
+                },
+                "OutcomeMeasureUnitOfMeasure": {
+                  "type": "String",
+                  "order": "Alphabetic",
+                  "nInstances": 420307,
+                  "nUniqueValues": 33843
+                },
+                "OutcomeMeasureCalculatePct": {
+                  "type": "String",
+                  "order": "Alphabetic",
+                  "nInstances": 1375,
+                  "nUniqueValues": 1
+                },
+                "OutcomeMeasureTimeFrame": {
+                  "type": "String",
+                  "order": "Alphabetic",
+                  "nInstances": 451850,
+                  "nUniqueValues": 128427
+                },
+                "OutcomeMeasureTypeUnitsAnalyzed": {
+                  "type": "String",
+                  "order": "Alphabetic",
+                  "nInstances": 8453,
+                  "nUniqueValues": 1688
+                },
+                "OutcomeMeasureDenomUnitsSelected": {
+                  "type": "String",
+                  "order": "Alphabetic",
+                  "nInstances": 17025,
+                  "nUniqueValues": 1296
+                },
+                "OutcomeGroupList": {
+                  "type": "Array",
+                  "nInstances": 440430,
+                  "minNChildInstances": 1,
+                  "maxNChildInstances": 39,
+                  "OutcomeGroup": {
+                    "type": "Object",
+                    "nInstances": 1068373,
+                    "OutcomeGroupId": {
+                      "type": "String",
+                      "order": "Alphabetic",
+                      "nInstances": 1068373,
+                      "nUniqueValues": 39
+                    },
+                    "OutcomeGroupTitle": {
+                      "type": "String",
+                      "order": "Alphabetic",
+                      "nInstances": 1068373,
+                      "nUniqueValues": 124142
+                    },
+                    "OutcomeGroupDescription": {
+                      "type": "String",
+                      "order": "Alphabetic",
+                      "nInstances": 1055806,
+                      "nUniqueValues": 169173
+                    }
+                  }
+                },
+                "OutcomeDenomList": {
+                  "type": "Array",
+                  "nInstances": 440430,
+                  "minNChildInstances": 1,
+                  "maxNChildInstances": 2,
+                  "OutcomeDenom": {
+                    "type": "Object",
+                    "nInstances": 448795,
+                    "OutcomeDenomUnits": {
+                      "type": "String",
+                      "order": "Alphabetic",
+                      "nInstances": 448795,
+                      "nUniqueValues": 1688
+                    },
+                    "OutcomeDenomCountList": {
+                      "type": "Array",
+                      "nInstances": 448795,
+                      "minNChildInstances": 1,
+                      "maxNChildInstances": 39,
+                      "OutcomeDenomCount": {
+                        "type": "Object",
+                        "nInstances": 1085544,
+                        "OutcomeDenomCountGroupId": {
+                          "type": "String",
+                          "order": "Alphabetic",
+                          "nInstances": 1085544,
+                          "nUniqueValues": 39
+                        },
+                        "OutcomeDenomCountValue": {
+                          "type": "String",
+                          "order": "Numeric",
+                          "nInstances": 1085544,
+                          "nUniqueValues": 5438
+                        }
+                      }
+                    }
+                  }
+                },
+                "OutcomeClassList": {
+                  "type": "Array",
+                  "nInstances": 419501,
+                  "minNChildInstances": 1,
+                  "maxNChildInstances": 892,
+                  "OutcomeClass": {
+                    "type": "Object",
+                    "nInstances": 1376203,
+                    "OutcomeClassTitle": {
+                      "type": "String",
+                      "order": "Alphabetic",
+                      "nInstances": 1117482,
+                      "nUniqueValues": 569982
+                    },
+                    "OutcomeClassDenomList": {
+                      "type": "Array",
+                      "nInstances": 399436,
+                      "minNChildInstances": 1,
+                      "maxNChildInstances": 2,
+                      "OutcomeClassDenom": {
+                        "type": "Object",
+                        "nInstances": 405814,
+                        "OutcomeClassDenomUnits": {
+                          "type": "String",
+                          "order": "Alphabetic",
+                          "nInstances": 405814,
+                          "nUniqueValues": 162
+                        },
+                        "OutcomeClassDenomCountList": {
+                          "type": "Array",
+                          "nInstances": 405814,
+                          "minNChildInstances": 1,
+                          "maxNChildInstances": 34,
+                          "OutcomeClassDenomCount": {
+                            "type": "Object",
+                            "nInstances": 1079420,
+                            "OutcomeClassDenomCountGroupId": {
+                              "type": "String",
+                              "order": "Alphabetic",
+                              "nInstances": 1079420,
+                              "nUniqueValues": 34
+                            },
+                            "OutcomeClassDenomCountValue": {
+                              "type": "String",
+                              "order": "Numeric",
+                              "nInstances": 1079420,
+                              "nUniqueValues": 3561
+                            }
+                          }
+                        }
+                      }
+                    },
+                    "OutcomeCategoryList": {
+                      "type": "Array",
+                      "nInstances": 1372519,
+                      "minNChildInstances": 1,
+                      "maxNChildInstances": 61,
+                      "OutcomeCategory": {
+                        "type": "Object",
+                        "nInstances": 1423901,
+                        "OutcomeCategoryTitle": {
+                          "type": "String",
+                          "order": "Alphabetic",
+                          "nInstances": 70295,
+                          "nUniqueValues": 12076
+                        },
+                        "OutcomeMeasurementList": {
+                          "type": "Array",
+                          "nInstances": 1423810,
+                          "minNChildInstances": 1,
+                          "maxNChildInstances": 39,
+                          "OutcomeMeasurement": {
+                            "type": "Object",
+                            "nInstances": 3443900,
+                            "OutcomeMeasurementGroupId": {
+                              "type": "String",
+                              "order": "Alphabetic",
+                              "nInstances": 3443900,
+                              "nUniqueValues": 39
+                            },
+                            "OutcomeMeasurementValue": {
+                              "type": "String",
+                              "order": "Alphabetic",
+                              "nInstances": 3443900,
+                              "nUniqueValues": 170937
+                            },
+                            "OutcomeMeasurementSpread": {
+                              "type": "String",
+                              "order": "Alphabetic",
+                              "nInstances": 1281337,
+                              "nUniqueValues": 156231
+                            },
+                            "OutcomeMeasurementLowerLimit": {
+                              "type": "String",
+                              "order": "Alphabetic",
+                              "nInstances": 574205,
+                              "nUniqueValues": 59031
+                            },
+                            "OutcomeMeasurementUpperLimit": {
+                              "type": "String",
+                              "order": "Alphabetic",
+                              "nInstances": 572450,
+                              "nUniqueValues": 67034
+                            },
+                            "OutcomeMeasurementComment": {
+                              "type": "String",
+                              "order": "Alphabetic",
+                              "nInstances": 68101,
+                              "nUniqueValues": 10064
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                },
+                "OutcomeAnalysisList": {
+                  "type": "Array",
+                  "nInstances": 102253,
+                  "minNChildInstances": 1,
+                  "maxNChildInstances": 442,
+                  "dedLink": "https://prsinfo.clinicaltrials.gov/results_definitions.html#Result_Outcome_Analysis",
+                  "OutcomeAnalysis": {
+                    "type": "Object",
+                    "nInstances": 243535,
+                    "OutcomeAnalysisGroupIdList": {
+                      "type": "Array",
+                      "nInstances": 243535,
+                      "minNChildInstances": 1,
+                      "maxNChildInstances": 39,
+                      "OutcomeAnalysisGroupId": {
+                        "type": "String",
+                        "order": "Alphabetic",
+                        "nInstances": 471962,
+                        "nUniqueValues": 39
+                      }
+                    },
+                    "OutcomeAnalysisGroupDescription": {
+                      "type": "String",
+                      "order": "Alphabetic",
+                      "nInstances": 142399,
+                      "nUniqueValues": 63539
+                    },
+                    "OutcomeAnalysisTestedNonInferiority": {
+                      "type": "String",
+                      "order": "Alphabetic",
+                      "nInstances": 73794,
+                      "nUniqueValues": 2
+                    },
+                    "OutcomeAnalysisNonInferiorityType": {
+                      "type": "String",
+                      "order": "Alphabetic",
+                      "nInstances": 243535,
+                      "nUniqueValues": 8
+                    },
+                    "OutcomeAnalysisNonInferiorityComment": {
+                      "type": "String",
+                      "order": "Alphabetic",
+                      "nInstances": 28916,
+                      "nUniqueValues": 10052
+                    },
+                    "OutcomeAnalysisPValue": {
+                      "type": "String",
+                      "order": "Alphabetic",
+                      "nInstances": 200502,
+                      "nUniqueValues": 16233
+                    },
+                    "OutcomeAnalysisPValueComment": {
+                      "type": "String",
+                      "order": "Alphabetic",
+                      "nInstances": 70994,
+                      "nUniqueValues": 16830
+                    },
+                    "OutcomeAnalysisStatisticalMethod": {
+                      "type": "String",
+                      "order": "Alphabetic",
+                      "nInstances": 209957,
+                      "nUniqueValues": 3561
+                    },
+                    "OutcomeAnalysisStatisticalComment": {
+                      "type": "String",
+                      "order": "Alphabetic",
+                      "nInstances": 49267,
+                      "nUniqueValues": 11199
+                    },
+                    "OutcomeAnalysisParamType": {
+                      "type": "String",
+                      "order": "Alphabetic",
+                      "nInstances": 166020,
+                      "nUniqueValues": 5044
+                    },
+                    "OutcomeAnalysisParamValue": {
+                      "type": "String",
+                      "order": "Alphabetic",
+                      "nInstances": 165977,
+                      "nUniqueValues": 25137
+                    },
+                    "OutcomeAnalysisCIPctValue": {
+                      "type": "String",
+                      "order": "Alphabetic",
+                      "nInstances": 173673,
+                      "nUniqueValues": 184
+                    },
+                    "OutcomeAnalysisCINumSides": {
+                      "type": "String",
+                      "order": "Alphabetic",
+                      "nInstances": 161461,
+                      "nUniqueValues": 2
+                    },
+                    "OutcomeAnalysisCILowerLimit": {
+                      "type": "String",
+                      "order": "Alphabetic",
+                      "nInstances": 155105,
+                      "nUniqueValues": 25763
+                    },
+                    "OutcomeAnalysisCIUpperLimit": {
+                      "type": "String",
+                      "order": "Alphabetic",
+                      "nInstances": 154758,
+                      "nUniqueValues": 27142
+                    },
+                    "OutcomeAnalysisCILowerLimitComment": {
+                      "type": "String",
+                      "order": "Alphabetic",
+                      "nInstances": 0,
+                      "nUniqueValues": 0
+                    },
+                    "OutcomeAnalysisCIUpperLimitComment": {
+                      "type": "String",
+                      "order": "Alphabetic",
+                      "nInstances": 81,
+                      "nUniqueValues": 23
+                    },
+                    "OutcomeAnalysisDispersionType": {
+                      "type": "String",
+                      "order": "Alphabetic",
+                      "nInstances": 47707,
+                      "nUniqueValues": 3
+                    },
+                    "OutcomeAnalysisDispersionValue": {
+                      "type": "String",
+                      "order": "Alphabetic",
+                      "nInstances": 47707,
+                      "nUniqueValues": 10422
+                    },
+                    "OutcomeAnalysisEstimateComment": {
+                      "type": "String",
+                      "order": "Alphabetic",
+                      "nInstances": 50925,
+                      "nUniqueValues": 14591
+                    },
+                    "OutcomeAnalysisOtherAnalysisDescription": {
+                      "type": "String",
+                      "order": "Alphabetic",
+                      "nInstances": 1773,
+                      "nUniqueValues": 969
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "AdverseEventsModule": {
+            "type": "Object",
+            "nInstances": 56357,
+            "dedLink": "https://prsinfo.clinicaltrials.gov/results_definitions.html#Result_AdverseEvents",
+            "EventsFrequencyThreshold": {
+              "type": "String",
+              "order": "Numeric",
+              "nInstances": 56350,
+              "nUniqueValues": 148
+            },
+            "EventsTimeFrame": {
+              "type": "String",
+              "order": "Alphabetic",
+              "nInstances": 41108,
+              "nUniqueValues": 28953
+            },
+            "EventsDescription": {
+              "type": "String",
+              "order": "Alphabetic",
+              "nInstances": 23146,
+              "nUniqueValues": 19476
+            },
+            "EventGroupList": {
+              "type": "Array",
+              "nInstances": 56357,
+              "minNChildInstances": 1,
+              "maxNChildInstances": 75,
+              "EventGroup": {
+                "type": "Object",
+                "nInstances": 136653,
+                "EventGroupId": {
+                  "type": "String",
+                  "order": "Alphabetic",
+                  "nInstances": 136653,
+                  "nUniqueValues": 75
+                },
+                "EventGroupTitle": {
+                  "type": "String",
+                  "order": "Alphabetic",
+                  "nInstances": 136636,
+                  "nUniqueValues": 99191
+                },
+                "EventGroupDescription": {
+                  "type": "String",
+                  "order": "Alphabetic",
+                  "nInstances": 134047,
+                  "nUniqueValues": 127044
+                },
+                "EventGroupDeathsNumAffected": {
+                  "type": "String",
+                  "order": "Alphabetic",
+                  "nInstances": 66297,
+                  "nUniqueValues": 461
+                },
+                "EventGroupDeathsNumAtRisk": {
+                  "type": "String",
+                  "order": "Alphabetic",
+                  "nInstances": 66297,
+                  "nUniqueValues": 1813
+                },
+                "EventGroupSeriousNumAffected": {
+                  "type": "String",
+                  "order": "Alphabetic",
+                  "nInstances": 136639,
+                  "nUniqueValues": 933
+                },
+                "EventGroupSeriousNumAtRisk": {
+                  "type": "String",
+                  "order": "Alphabetic",
+                  "nInstances": 135885,
+                  "nUniqueValues": 2679
+                },
+                "EventGroupOtherNumAffected": {
+                  "type": "String",
+                  "order": "Alphabetic",
+                  "nInstances": 136639,
+                  "nUniqueValues": 1374
+                },
+                "EventGroupOtherNumAtRisk": {
+                  "type": "String",
+                  "order": "Alphabetic",
+                  "nInstances": 135808,
+                  "nUniqueValues": 2601
+                }
+              }
+            },
+            "SeriousEventList": {
+              "type": "Array",
+              "nInstances": 31265,
+              "minNChildInstances": 1,
+              "maxNChildInstances": 2505,
+              "SeriousEvent": {
+                "type": "Object",
+                "nInstances": 1052592,
+                "SeriousEventTerm": {
+                  "type": "String",
+                  "order": "Alphabetic",
+                  "nInstances": 1052530,
+                  "nUniqueValues": 72927
+                },
+                "SeriousEventOrganSystem": {
+                  "type": "String",
+                  "order": "Alphabetic",
+                  "nInstances": 1052592,
+                  "nUniqueValues": 27
+                },
+                "SeriousEventSourceVocabulary": {
+                  "type": "String",
+                  "order": "Alphabetic",
+                  "nInstances": 944172,
+                  "nUniqueValues": 1922
+                },
+                "SeriousEventAssessmentType": {
+                  "type": "String",
+                  "order": "Alphabetic",
+                  "nInstances": 1014761,
+                  "nUniqueValues": 2
+                },
+                "SeriousEventNotes": {
+                  "type": "String",
+                  "order": "Alphabetic",
+                  "nInstances": 19321,
+                  "nUniqueValues": 11129
+                },
+                "SeriousEventStatsList": {
+                  "type": "Array",
+                  "nInstances": 1052592,
+                  "minNChildInstances": 1,
+                  "maxNChildInstances": 75,
+                  "SeriousEventStats": {
+                    "type": "Object",
+                    "nInstances": 3046436,
+                    "SeriousEventStatsGroupId": {
+                      "type": "String",
+                      "order": "Alphabetic",
+                      "nInstances": 3046436,
+                      "nUniqueValues": 75
+                    },
+                    "SeriousEventStatsNumEvents": {
+                      "type": "String",
+                      "order": "Alphabetic",
+                      "nInstances": 1203441,
+                      "nUniqueValues": 482
+                    },
+                    "SeriousEventStatsNumAffected": {
+                      "type": "String",
+                      "order": "Alphabetic",
+                      "nInstances": 3044193,
+                      "nUniqueValues": 591
+                    },
+                    "SeriousEventStatsNumAtRisk": {
+                      "type": "String",
+                      "order": "Alphabetic",
+                      "nInstances": 3046436,
+                      "nUniqueValues": 2374
+                    }
+                  }
+                }
+              }
+            },
+            "OtherEventList": {
+              "type": "Array",
+              "nInstances": 39799,
+              "minNChildInstances": 1,
+              "maxNChildInstances": 1688,
+              "OtherEvent": {
+                "type": "Object",
+                "nInstances": 1376879,
+                "OtherEventTerm": {
+                  "type": "String",
+                  "order": "Alphabetic",
+                  "nInstances": 1376819,
+                  "nUniqueValues": 100651
+                },
+                "OtherEventOrganSystem": {
+                  "type": "String",
+                  "order": "Alphabetic",
+                  "nInstances": 1376879,
+                  "nUniqueValues": 27
+                },
+                "OtherEventSourceVocabulary": {
+                  "type": "String",
+                  "order": "Alphabetic",
+                  "nInstances": 1151082,
+                  "nUniqueValues": 2423
+                },
+                "OtherEventAssessmentType": {
+                  "type": "String",
+                  "order": "Alphabetic",
+                  "nInstances": 1308005,
+                  "nUniqueValues": 2
+                },
+                "OtherEventNotes": {
+                  "type": "String",
+                  "order": "Alphabetic",
+                  "nInstances": 31856,
+                  "nUniqueValues": 15013
+                },
+                "OtherEventStatsList": {
+                  "type": "Array",
+                  "nInstances": 1376879,
+                  "minNChildInstances": 1,
+                  "maxNChildInstances": 75,
+                  "OtherEventStats": {
+                    "type": "Object",
+                    "nInstances": 4651611,
+                    "OtherEventStatsGroupId": {
+                      "type": "String",
+                      "order": "Alphabetic",
+                      "nInstances": 4651611,
+                      "nUniqueValues": 75
+                    },
+                    "OtherEventStatsNumEvents": {
+                      "type": "String",
+                      "order": "Alphabetic",
+                      "nInstances": 1946869,
+                      "nUniqueValues": 1467
+                    },
+                    "OtherEventStatsNumAffected": {
+                      "type": "String",
+                      "order": "Alphabetic",
+                      "nInstances": 4646294,
+                      "nUniqueValues": 1301
+                    },
+                    "OtherEventStatsNumAtRisk": {
+                      "type": "String",
+                      "order": "Alphabetic",
+                      "nInstances": 4651611,
+                      "nUniqueValues": 2174
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "MoreInfoModule": {
+            "type": "Object",
+            "nInstances": 59928,
+            "LimitationsAndCaveatsDescription": {
+              "type": "String",
+              "order": "Alphabetic",
+              "nInstances": 12014,
+              "nUniqueValues": 11383,
+              "dedLink": "https://prsinfo.clinicaltrials.gov/results_definitions.html#Result_LimitationsAndCaveats_description"
+            },
+            "CertainAgreement": {
+              "type": "Object",
+              "nInstances": 56561,
+              "dedLink": "https://prsinfo.clinicaltrials.gov/results_definitions.html#Result_CertainAgreement",
+              "AgreementPISponsorEmployee": {
+                "type": "String",
+                "order": "Alphabetic",
+                "nInstances": 56561,
+                "nUniqueValues": 2
+              },
+              "AgreementRestrictionType": {
+                "type": "String",
+                "order": "Alphabetic",
+                "nInstances": 24257,
+                "nUniqueValues": 3
+              },
+              "AgreementRestrictiveAgreement": {
+                "type": "String",
+                "order": "Alphabetic",
+                "nInstances": 44680,
+                "nUniqueValues": 2
+              },
+              "AgreementOtherDetails": {
+                "type": "String",
+                "order": "Alphabetic",
+                "nInstances": 17613,
+                "nUniqueValues": 3914
+              }
+            },
+            "PointOfContact": {
+              "type": "Object",
+              "nInstances": 56561,
+              "dedLink": "https://prsinfo.clinicaltrials.gov/results_definitions.html#Result_PointOfContact",
+              "PointOfContactTitle": {
+                "type": "String",
+                "order": "Alphabetic",
+                "nInstances": 56561,
+                "nUniqueValues": 28935
+              },
+              "PointOfContactOrganization": {
+                "type": "String",
+                "order": "Alphabetic",
+                "nInstances": 56561,
+                "nUniqueValues": 13051
+              },
+              "PointOfContactEMail": {
+                "type": "String",
+                "order": "Alphabetic",
+                "nInstances": 51723,
+                "nUniqueValues": 24631
+              },
+              "PointOfContactPhone": {
+                "type": "String",
+                "order": "Alphabetic",
+                "nInstances": 52965,
+                "nUniqueValues": 25475
+              },
+              "PointOfContactPhoneExt": {
+                "type": "String",
+                "order": "Alphabetic",
+                "nInstances": 3139,
+                "nUniqueValues": 1699
+              }
+            }
+          }
+        },
+        "AnnotationSection": {
+          "type": "Object",
+          "nInstances": 6769,
+          "AnnotationModule": {
+            "type": "Object",
+            "nInstances": 6769,
+            "UnpostedAnnotation": {
+              "type": "Object",
+              "nInstances": 6056,
+              "UnpostedResponsibleParty": {
+                "type": "String",
+                "order": "Alphabetic",
+                "nInstances": 6056,
+                "nUniqueValues": 4549
+              },
+              "UnpostedEventList": {
+                "type": "Array",
+                "nInstances": 6056,
+                "minNChildInstances": 2,
+                "maxNChildInstances": 30,
+                "UnpostedEvent": {
+                  "type": "Object",
+                  "nInstances": 21832,
+                  "UnpostedEventType": {
+                    "type": "String",
+                    "order": "Alphabetic",
+                    "nInstances": 21832,
+                    "nUniqueValues": 3
+                  },
+                  "UnpostedEventDate": {
+                    "type": "String",
+                    "order": "Date",
+                    "nInstances": 21832,
+                    "nUniqueValues": 3952
+                  }
+                }
+              }
+            }
+          }
+        },
+        "DocumentSection": {
+          "type": "Object",
+          "nInstances": 25338,
+          "LargeDocumentModule": {
+            "type": "Object",
+            "nInstances": 25338,
+            "dedLink": "https://prsinfo.clinicaltrials.gov/results_definitions.html#DocumentUploadLabel",
+            "LargeDocList": {
+              "type": "Array",
+              "nInstances": 25338,
+              "minNChildInstances": 1,
+              "maxNChildInstances": 12,
+              "LargeDoc": {
+                "type": "Object",
+                "nInstances": 37773,
+                "LargeDocTypeAbbrev": {
+                  "type": "String",
+                  "order": "Alphabetic",
+                  "nInstances": 37773,
+                  "nUniqueValues": 6
+                },
+                "LargeDocHasProtocol": {
+                  "type": "String",
+                  "order": "Alphabetic",
+                  "nInstances": 37773,
+                  "nUniqueValues": 2
+                },
+                "LargeDocHasSAP": {
+                  "type": "String",
+                  "order": "Alphabetic",
+                  "nInstances": 37773,
+                  "nUniqueValues": 2
+                },
+                "LargeDocHasICF": {
+                  "type": "String",
+                  "order": "Alphabetic",
+                  "nInstances": 37773,
+                  "nUniqueValues": 2
+                },
+                "LargeDocLabel": {
+                  "type": "String",
+                  "order": "Alphabetic",
+                  "nInstances": 37773,
+                  "nUniqueValues": 1053
+                },
+                "LargeDocDate": {
+                  "type": "String",
+                  "order": "Date",
+                  "nInstances": 37773,
+                  "nUniqueValues": 3695
+                },
+                "LargeDocUploadDate": {
+                  "type": "String",
+                  "order": "Date",
+                  "nInstances": 37773,
+                  "nUniqueValues": 34337
+                },
+                "LargeDocFilename": {
+                  "type": "String",
+                  "order": "Alphabetic",
+                  "nInstances": 37773,
+                  "nUniqueValues": 70
+                }
+              }
+            }
+          }
+        },
+        "DerivedSection": {
+          "type": "Object",
+          "nInstances": 437548,
+          "MiscInfoModule": {
+            "type": "Object",
+            "nInstances": 437548,
+            "VersionHolder": {
+              "type": "String",
+              "order": "Date",
+              "nInstances": 437548,
+              "nUniqueValues": 1
+            },
+            "RemovedCountryList": {
+              "type": "Array",
+              "nInstances": 14179,
+              "minNChildInstances": 1,
+              "maxNChildInstances": 49,
+              "RemovedCountry": {
+                "type": "String",
+                "order": "Alphabetic",
+                "nInstances": 32712,
+                "nUniqueValues": 179
+              }
+            },
+            "SubmissionTracking": {
+              "type": "Object",
+              "nInstances": 11795,
+              "SubmissionInfoList": {
+                "type": "Array",
+                "nInstances": 8649,
+                "minNChildInstances": 1,
+                "maxNChildInstances": 15,
+                "SubmissionInfo": {
+                  "type": "Object",
+                  "nInstances": 15027,
+                  "SubmissionReleaseDate": {
+                    "type": "String",
+                    "order": "Date",
+                    "nInstances": 15027,
+                    "nUniqueValues": 3560
+                  },
+                  "SubmissionUnreleaseDate": {
+                    "type": "String",
+                    "order": "Date",
+                    "nInstances": 977,
+                    "nUniqueValues": 338
+                  },
+                  "SubmissionResetDate": {
+                    "type": "String",
+                    "order": "Date",
+                    "nInstances": 11230,
+                    "nUniqueValues": 2808
+                  },
+                  "SubmissionMCPReleaseN": {
+                    "type": "String",
+                    "order": "Numeric",
+                    "nInstances": 1256,
+                    "nUniqueValues": 61
+                  }
+                }
+              }
+            }
+          },
+          "ConditionBrowseModule": {
+            "type": "Object",
+            "nInstances": 388330,
+            "ConditionMeshList": {
+              "type": "Array",
+              "nInstances": 362518,
+              "minNChildInstances": 1,
+              "maxNChildInstances": 142,
+              "ConditionMesh": {
+                "type": "Object",
+                "nInstances": 746144,
+                "ConditionMeshId": {
+                  "type": "String",
+                  "order": "Alphabetic",
+                  "nInstances": 746144,
+                  "nUniqueValues": 4194
+                },
+                "ConditionMeshTerm": {
+                  "type": "String",
+                  "order": "Alphabetic",
+                  "nInstances": 746144,
+                  "nUniqueValues": 4194
+                }
+              }
+            },
+            "ConditionAncestorList": {
+              "type": "Array",
+              "nInstances": 350451,
+              "minNChildInstances": 1,
+              "maxNChildInstances": 224,
+              "ConditionAncestor": {
+                "type": "Object",
+                "nInstances": 2045274,
+                "ConditionAncestorId": {
+                  "type": "String",
+                  "order": "Alphabetic",
+                  "nInstances": 2045274,
+                  "nUniqueValues": 1579
+                },
+                "ConditionAncestorTerm": {
+                  "type": "String",
+                  "order": "Alphabetic",
+                  "nInstances": 2045274,
+                  "nUniqueValues": 1579
+                }
+              }
+            },
+            "ConditionBrowseLeafList": {
+              "type": "Array",
+              "nInstances": 385074,
+              "minNChildInstances": 1,
+              "maxNChildInstances": 566,
+              "ConditionBrowseLeaf": {
+                "type": "Object",
+                "nInstances": 3167001,
+                "ConditionBrowseLeafId": {
+                  "type": "String",
+                  "order": "Alphabetic",
+                  "nInstances": 3167001,
+                  "nUniqueValues": 6301
+                },
+                "ConditionBrowseLeafName": {
+                  "type": "String",
+                  "order": "Alphabetic",
+                  "nInstances": 3167001,
+                  "nUniqueValues": 5833
+                },
+                "ConditionBrowseLeafAsFound": {
+                  "type": "String",
+                  "order": "Alphabetic",
+                  "nInstances": 849358,
+                  "nUniqueValues": 14572
+                },
+                "ConditionBrowseLeafRelevance": {
+                  "type": "String",
+                  "order": "Alphabetic",
+                  "nInstances": 3167001,
+                  "nUniqueValues": 2
+                }
+              }
+            },
+            "ConditionBrowseBranchList": {
+              "type": "Array",
+              "nInstances": 385074,
+              "minNChildInstances": 1,
+              "maxNChildInstances": 21,
+              "ConditionBrowseBranch": {
+                "type": "Object",
+                "nInstances": 1481624,
+                "ConditionBrowseBranchAbbrev": {
+                  "type": "String",
+                  "order": "Alphabetic",
+                  "nInstances": 1481624,
+                  "nUniqueValues": 25
+                },
+                "ConditionBrowseBranchName": {
+                  "type": "String",
+                  "order": "Alphabetic",
+                  "nInstances": 1481624,
+                  "nUniqueValues": 25
+                }
+              }
+            }
+          },
+          "InterventionBrowseModule": {
+            "type": "Object",
+            "nInstances": 230140,
+            "InterventionMeshList": {
+              "type": "Array",
+              "nInstances": 145349,
+              "minNChildInstances": 1,
+              "maxNChildInstances": 139,
+              "InterventionMesh": {
+                "type": "Object",
+                "nInstances": 283621,
+                "InterventionMeshId": {
+                  "type": "String",
+                  "order": "Alphabetic",
+                  "nInstances": 283621,
+                  "nUniqueValues": 3628
+                },
+                "InterventionMeshTerm": {
+                  "type": "String",
+                  "order": "Alphabetic",
+                  "nInstances": 283621,
+                  "nUniqueValues": 3628
+                }
+              }
+            },
+            "InterventionAncestorList": {
+              "type": "Array",
+              "nInstances": 144485,
+              "minNChildInstances": 1,
+              "maxNChildInstances": 109,
+              "InterventionAncestor": {
+                "type": "Object",
+                "nInstances": 1128270,
+                "InterventionAncestorId": {
+                  "type": "String",
+                  "order": "Alphabetic",
+                  "nInstances": 1128270,
+                  "nUniqueValues": 435
+                },
+                "InterventionAncestorTerm": {
+                  "type": "String",
+                  "order": "Alphabetic",
+                  "nInstances": 1128270,
+                  "nUniqueValues": 435
+                }
+              }
+            },
+            "InterventionBrowseLeafList": {
+              "type": "Array",
+              "nInstances": 230130,
+              "minNChildInstances": 1,
+              "maxNChildInstances": 181,
+              "InterventionBrowseLeaf": {
+                "type": "Object",
+                "nInstances": 1347154,
+                "InterventionBrowseLeafId": {
+                  "type": "String",
+                  "order": "Alphabetic",
+                  "nInstances": 1347154,
+                  "nUniqueValues": 3950
+                },
+                "InterventionBrowseLeafName": {
+                  "type": "String",
+                  "order": "Alphabetic",
+                  "nInstances": 1347154,
+                  "nUniqueValues": 3911
+                },
+                "InterventionBrowseLeafAsFound": {
+                  "type": "String",
+                  "order": "Alphabetic",
+                  "nInstances": 303493,
+                  "nUniqueValues": 8677
+                },
+                "InterventionBrowseLeafRelevance": {
+                  "type": "String",
+                  "order": "Alphabetic",
+                  "nInstances": 1347154,
+                  "nUniqueValues": 2
+                }
+              }
+            },
+            "InterventionBrowseBranchList": {
+              "type": "Array",
+              "nInstances": 230130,
+              "minNChildInstances": 1,
+              "maxNChildInstances": 28,
+              "InterventionBrowseBranch": {
+                "type": "Object",
+                "nInstances": 721550,
+                "InterventionBrowseBranchAbbrev": {
+                  "type": "String",
+                  "order": "Alphabetic",
+                  "nInstances": 721550,
+                  "nUniqueValues": 56
+                },
+                "InterventionBrowseBranchName": {
+                  "type": "String",
+                  "order": "Alphabetic",
+                  "nInstances": 721550,
+                  "nUniqueValues": 56
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "Docs": [
+      {
+        "StructName": "Study",
+        "Areas": [
+          {
+            "Name": "BasicSearch",
+            "Parts": [
+              { "Weight": 1, "FieldName": "NCTId" },
+              { "Weight": 1, "FieldName": "Acronym" },
+              { "Weight": 0.89, "FieldName": "BriefTitle" },
+              { "Weight": 0.85, "FieldName": "OfficialTitle" },
+              { "Weight": 0.81, "FieldName": "Condition" },
+              { "Weight": 0.81, "FieldName": "HealthyVolunteers" },
+              { "Weight": 0.8, "FieldName": "InterventionName" },
+              { "Weight": 0.75, "FieldName": "InterventionOtherName" },
+              { "Weight": 0.45, "FieldName": "InterventionDescription" },
+              { "Weight": 0.35, "FieldName": "InterventionType" },
+              { "Weight": 0.5, "FieldName": "ArmGroupLabel" },
+              { "Weight": 0.45, "FieldName": "ArmGroupDescription" },
+              { "Weight": 0.35, "FieldName": "ArmGroupType" },
+              { "Weight": 0.6, "FieldName": "PrimaryOutcomeMeasure" },
+              { "Weight": 0.4, "FieldName": "PrimaryOutcomeDescription" },
+              { "Weight": 0.5, "FieldName": "SecondaryOutcomeMeasure" },
+              { "Weight": 0.35, "FieldName": "SecondaryOutcomeDescription" },
+              { "Weight": 0.15, "FieldName": "OtherOutcomeMeasure" },
+              { "Weight": 0.1, "FieldName": "OtherOutcomeDescription" },
+              { "Weight": 0.15, "FieldName": "OutcomeMeasureTitle" },
+              { "Weight": 0.1, "FieldName": "OutcomeMeasureDescription" },
+              { "Weight": 0.65, "FieldName": "Phase" },
+              { "Weight": 0.65, "FieldName": "StdAge" },
+              { "Weight": 0.6, "FieldName": "BriefSummary" },
+              { "Weight": 0.6, "FieldName": "Keyword" },
+              { "Weight": 0.4, "FieldName": "LeadSponsorName" },
+              { "Weight": 0.4, "FieldName": "OrgStudyId" },
+              { "Weight": 0.4, "FieldName": "SecondaryId" },
+              { "Weight": 0.4, "FieldName": "NCTIdAlias" },
+              { "Weight": 0.35, "FieldName": "LocationFacility" },
+              { "Weight": 0.35, "FieldName": "LocationStatus" },
+              { "Weight": 0.35, "FieldName": "LocationState" },
+              { "Weight": 0.35, "FieldName": "LocationCountry" },
+              { "Weight": 0.35, "FieldName": "LocationCity" },
+              { "Weight": 0.3, "FieldName": "BioSpecDescription" },
+              {
+                "Weight": 0.3,
+                "FieldName": "ResponsiblePartyInvestigatorFullName"
+              },
+              {
+                "Weight": 0.3,
+                "FieldName": "ResponsiblePartyInvestigatorTitle"
+              },
+              {
+                "Weight": 0.3,
+                "FieldName": "ResponsiblePartyInvestigatorAffiliation"
+              },
+              { "Weight": 0.3, "FieldName": "ResponsiblePartyOldNameTitle" },
+              { "Weight": 0.3, "FieldName": "ResponsiblePartyOldOrganization" },
+              { "Weight": 0.3, "FieldName": "OverallOfficialAffiliation" },
+              { "Weight": 0.3, "FieldName": "OverallOfficialRole" },
+              { "Weight": 0.3, "FieldName": "OverallOfficialName" },
+              { "Weight": 0.3, "FieldName": "CentralContactName" },
+              { "Weight": 0.3, "FieldName": "DesignAllocation" },
+              { "Weight": 0.3, "FieldName": "DesignInterventionModel" },
+              { "Weight": 0.3, "FieldName": "DesignMasking" },
+              { "Weight": 0.3, "FieldName": "DesignWhoMasked" },
+              { "Weight": 0.3, "FieldName": "DesignObservationalModel" },
+              { "Weight": 0.3, "FieldName": "DesignPrimaryPurpose" },
+              { "Weight": 0.3, "FieldName": "DesignTimePerspective" },
+              { "Weight": 0.3, "FieldName": "StudyType" },
+              { "Weight": 0.3, "FieldName": "ConditionMeshTerm" },
+              { "Weight": 0.3, "FieldName": "InterventionMeshTerm" },
+              { "Weight": 0.25, "FieldName": "ConditionAncestorTerm" },
+              { "Weight": 0.25, "FieldName": "InterventionAncestorTerm" },
+              { "Weight": 0.25, "FieldName": "CollaboratorName" },
+              { "Weight": 0.1, "FieldName": "LocationContactName" }
+            ]
+          },
+          {
+            "Name": "ConditionSearch",
+            "Parts": [
+              { "Weight": 0.95, "FieldName": "Condition" },
+              { "Weight": 0.6, "FieldName": "BriefTitle" },
+              { "Weight": 0.55, "FieldName": "OfficialTitle" },
+              { "Weight": 0.5, "FieldName": "ConditionMeshTerm" },
+              { "Weight": 0.4, "FieldName": "ConditionAncestorTerm" },
+              { "Weight": 0.3, "FieldName": "Keyword" },
+              { "Weight": 0.2, "FieldName": "NCTId" }
+            ]
+          },
+          {
+            "Name": "InterventionSearch",
+            "Parts": [
+              { "Weight": 0.95, "FieldName": "InterventionName" },
+              { "Weight": 0.85, "FieldName": "InterventionType" },
+              { "Weight": 0.85, "FieldName": "ArmGroupType" },
+              { "Weight": 0.75, "FieldName": "InterventionOtherName" },
+              { "Weight": 0.65, "FieldName": "BriefTitle" },
+              { "Weight": 0.6, "FieldName": "OfficialTitle" },
+              { "Weight": 0.5, "FieldName": "ArmGroupLabel" },
+              { "Weight": 0.5, "FieldName": "InterventionMeshTerm" },
+              { "Weight": 0.4, "FieldName": "InterventionAncestorTerm" },
+              { "Weight": 0.5, "FieldName": "Keyword" },
+              { "Weight": 0.4, "FieldName": "InterventionDescription" },
+              { "Weight": 0.4, "FieldName": "ArmGroupDescription" }
+            ]
+          },
+          {
+            "Name": "OutcomeSearch",
+            "Parts": [
+              { "Weight": 0.9, "FieldName": "PrimaryOutcomeMeasure" },
+              { "Weight": 0.6, "FieldName": "PrimaryOutcomeDescription" },
+              { "Weight": 0.8, "FieldName": "SecondaryOutcomeMeasure" },
+              { "Weight": 0.5, "FieldName": "SecondaryOutcomeDescription" },
+              { "Weight": 0.4, "FieldName": "OtherOutcomeMeasure" },
+              { "Weight": 0.3, "FieldName": "OtherOutcomeDescription" },
+              { "Weight": 0.4, "FieldName": "OutcomeMeasureTitle" },
+              { "Weight": 0.3, "FieldName": "OutcomeMeasureDescription" },
+              {
+                "Weight": 0.3,
+                "FieldName": "OutcomeMeasurePopulationDescription"
+              }
+            ]
+          },
+          {
+            "Name": "TitleSearch",
+            "Parts": [
+              { "Weight": 0.99, "FieldName": "Acronym" },
+              { "Weight": 0.95, "FieldName": "BriefTitle" },
+              { "Weight": 0.8, "FieldName": "OfficialTitle" }
+            ]
+          },
+          {
+            "Name": "LocationSearch",
+            "Parts": [
+              { "Weight": 0.95, "FieldName": "LocationCity" },
+              { "Weight": 0.95, "FieldName": "LocationState" },
+              { "Weight": 0.95, "FieldName": "LocationCountry" },
+              { "Weight": 0.35, "FieldName": "LocationZip" },
+              { "Weight": 0.95, "FieldName": "LocationFacility" }
+            ]
+          },
+          {
+            "Name": "NCTIdSearch",
+            "Parts": [
+              { "Weight": 0.99, "FieldName": "NCTId" },
+              { "Weight": 0.9, "FieldName": "NCTIdAlias" }
+            ]
+          },
+          {
+            "Name": "IdSearch",
+            "Parts": [
+              { "Weight": 0.99, "FieldName": "NCTId" },
+              { "Weight": 0.9, "FieldName": "NCTIdAlias" },
+              { "Weight": 0.85, "FieldName": "Acronym" },
+              { "Weight": 0.8, "FieldName": "OrgStudyId" },
+              { "Weight": 0.75, "FieldName": "SecondaryId" }
+            ]
+          },
+          {
+            "Name": "SponsorSearch",
+            "Parts": [
+              { "Weight": 0.99, "FieldName": "LeadSponsorName" },
+              { "Weight": 0.9, "FieldName": "CollaboratorName" },
+              { "Weight": 0.6, "FieldName": "OrgFullName" }
+            ]
+          },
+          {
+            "Name": "FunderTypeSearch",
+            "Parts": [
+              { "Weight": 0.99, "FieldName": "LeadSponsorClass" },
+              { "Weight": 0.9, "FieldName": "CollaboratorClass" }
+            ]
+          },
+          {
+            "Name": "ResponsiblePartySearch",
+            "Parts": [
+              {
+                "Weight": 0.9,
+                "FieldName": "ResponsiblePartyInvestigatorFullName"
+              },
+              { "Weight": 0.8, "FieldName": "ResponsiblePartyOldNameTitle" },
+              {
+                "Weight": 0.8,
+                "FieldName": "ResponsiblePartyInvestigatorAffiliation"
+              },
+              { "Weight": 0.7, "FieldName": "ResponsiblePartyOldOrganization" },
+              {
+                "Weight": 0.7,
+                "FieldName": "ResponsiblePartyInvestigatorTitle"
+              }
+            ]
+          },
+          { "Name": "Acronym", "Primitive": true },
+          { "Name": "AgreementOtherDetails", "Primitive": true },
+          { "Name": "AgreementPISponsorEmployee", "Primitive": true },
+          { "Name": "AgreementRestrictionType", "Primitive": true },
+          { "Name": "AgreementRestrictiveAgreement", "Primitive": true },
+          { "Name": "ArmGroupDescription", "Primitive": true },
+          { "Name": "ArmGroupInterventionName", "Primitive": true },
+          { "Name": "ArmGroupLabel", "Primitive": true },
+          { "Name": "ArmGroupType", "Primitive": true },
+          { "Name": "AvailIPDComment", "Primitive": true },
+          { "Name": "AvailIPDId", "Primitive": true },
+          { "Name": "AvailIPDType", "Primitive": true },
+          { "Name": "AvailIPDURL", "Primitive": true },
+          { "Name": "BaselineCategoryTitle", "Primitive": true },
+          { "Name": "BaselineClassDenomCountGroupId", "Primitive": true },
+          {
+            "Name": "BaselineClassDenomCountValue",
+            "Order": "Numeric",
+            "Primitive": true
+          },
+          { "Name": "BaselineClassDenomUnits", "Primitive": true },
+          { "Name": "BaselineClassTitle", "Primitive": true },
+          { "Name": "BaselineDenomCountGroupId", "Primitive": true },
+          {
+            "Name": "BaselineDenomCountValue",
+            "Order": "Numeric",
+            "Primitive": true
+          },
+          { "Name": "BaselineDenomUnits", "Primitive": true },
+          { "Name": "BaselineGroupDescription", "Primitive": true },
+          { "Name": "BaselineGroupId", "Primitive": true },
+          { "Name": "BaselineGroupTitle", "Primitive": true },
+          { "Name": "BaselineMeasureCalculatePct", "Primitive": true },
+          { "Name": "BaselineMeasureDenomCountGroupId", "Primitive": true },
+          {
+            "Name": "BaselineMeasureDenomCountValue",
+            "Order": "Numeric",
+            "Primitive": true
+          },
+          { "Name": "BaselineMeasureDenomUnits", "Primitive": true },
+          { "Name": "BaselineMeasureDenomUnitsSelected", "Primitive": true },
+          { "Name": "BaselineMeasureDescription", "Primitive": true },
+          { "Name": "BaselineMeasureDispersionType", "Primitive": true },
+          { "Name": "BaselineMeasureParamType", "Primitive": true },
+          { "Name": "BaselineMeasurePopulationDescription", "Primitive": true },
+          { "Name": "BaselineMeasureTitle", "Primitive": true },
+          { "Name": "BaselineMeasureUnitOfMeasure", "Primitive": true },
+          { "Name": "BaselineMeasurementComment", "Primitive": true },
+          { "Name": "BaselineMeasurementGroupId", "Primitive": true },
+          { "Name": "BaselineMeasurementLowerLimit", "Primitive": true },
+          { "Name": "BaselineMeasurementSpread", "Primitive": true },
+          { "Name": "BaselineMeasurementUpperLimit", "Primitive": true },
+          { "Name": "BaselineMeasurementValue", "Primitive": true },
+          { "Name": "BaselinePopulationDescription", "Primitive": true },
+          { "Name": "BaselineTypeUnitsAnalyzed", "Primitive": true },
+          { "Name": "BioSpecDescription", "Primitive": true },
+          { "Name": "BioSpecRetention", "Primitive": true },
+          { "Name": "BriefSummary", "Primitive": true },
+          { "Name": "BriefTitle", "Primitive": true },
+          { "Name": "CentralContactEMail", "Primitive": true },
+          { "Name": "CentralContactName", "Primitive": true },
+          { "Name": "CentralContactPhone", "Primitive": true },
+          { "Name": "CentralContactPhoneExt", "Primitive": true },
+          { "Name": "CentralContactRole", "Primitive": true },
+          { "Name": "CollaboratorClass", "Primitive": true },
+          { "Name": "CollaboratorName", "Primitive": true },
+          { "Name": "CompletionDate", "Order": "Date", "Primitive": true },
+          { "Name": "CompletionDateType", "Primitive": true },
+          { "Name": "Condition", "Primitive": true },
+          { "Name": "ConditionAncestorId", "Primitive": true },
+          { "Name": "ConditionAncestorTerm", "Primitive": true },
+          { "Name": "ConditionBrowseBranchAbbrev", "Primitive": true },
+          { "Name": "ConditionBrowseBranchName", "Primitive": true },
+          { "Name": "ConditionBrowseLeafAsFound", "Primitive": true },
+          { "Name": "ConditionBrowseLeafId", "Primitive": true },
+          { "Name": "ConditionBrowseLeafName", "Primitive": true },
+          { "Name": "ConditionBrowseLeafRelevance", "Primitive": true },
+          { "Name": "ConditionMeshId", "Primitive": true },
+          { "Name": "ConditionMeshTerm", "Primitive": true },
+          { "Name": "DelayedPosting", "Primitive": true },
+          { "Name": "DesignAllocation", "Primitive": true },
+          { "Name": "DesignInterventionModel", "Primitive": true },
+          { "Name": "DesignInterventionModelDescription", "Primitive": true },
+          { "Name": "DesignMasking", "Primitive": true },
+          { "Name": "DesignMaskingDescription", "Primitive": true },
+          { "Name": "DesignObservationalModel", "Primitive": true },
+          { "Name": "DesignPrimaryPurpose", "Primitive": true },
+          { "Name": "DesignTimePerspective", "Primitive": true },
+          { "Name": "DesignWhoMasked", "Primitive": true },
+          { "Name": "DetailedDescription", "Primitive": true },
+          { "Name": "DispFirstPostDate", "Order": "Date", "Primitive": true },
+          { "Name": "DispFirstPostDateType", "Primitive": true },
+          { "Name": "DispFirstSubmitDate", "Order": "Date", "Primitive": true },
+          {
+            "Name": "DispFirstSubmitQCDate",
+            "Order": "Date",
+            "Primitive": true
+          },
+          { "Name": "EligibilityCriteria", "Primitive": true },
+          { "Name": "EnrollmentCount", "Order": "Numeric", "Primitive": true },
+          { "Name": "EnrollmentType", "Primitive": true },
+          { "Name": "EventGroupDeathsNumAffected", "Primitive": true },
+          { "Name": "EventGroupDeathsNumAtRisk", "Primitive": true },
+          { "Name": "EventGroupDescription", "Primitive": true },
+          { "Name": "EventGroupId", "Primitive": true },
+          { "Name": "EventGroupOtherNumAffected", "Primitive": true },
+          { "Name": "EventGroupOtherNumAtRisk", "Primitive": true },
+          { "Name": "EventGroupSeriousNumAffected", "Primitive": true },
+          { "Name": "EventGroupSeriousNumAtRisk", "Primitive": true },
+          { "Name": "EventGroupTitle", "Primitive": true },
+          { "Name": "EventsDescription", "Primitive": true },
+          {
+            "Name": "EventsFrequencyThreshold",
+            "Order": "Numeric",
+            "Primitive": true
+          },
+          { "Name": "EventsTimeFrame", "Primitive": true },
+          { "Name": "ExpAccTypeIndividual", "Primitive": true },
+          { "Name": "ExpAccTypeIntermediate", "Primitive": true },
+          { "Name": "ExpAccTypeTreatment", "Primitive": true },
+          { "Name": "ExpandedAccessNCTId", "Primitive": true },
+          { "Name": "ExpandedAccessStatusForNCTId", "Primitive": true },
+          { "Name": "FDAAA801Violation", "Primitive": true },
+          { "Name": "FlowAchievementComment", "Primitive": true },
+          { "Name": "FlowAchievementGroupId", "Primitive": true },
+          {
+            "Name": "FlowAchievementNumSubjects",
+            "Order": "Numeric",
+            "Primitive": true
+          },
+          {
+            "Name": "FlowAchievementNumUnits",
+            "Order": "Numeric",
+            "Primitive": true
+          },
+          { "Name": "FlowDropWithdrawComment", "Primitive": true },
+          { "Name": "FlowDropWithdrawType", "Primitive": true },
+          { "Name": "FlowGroupDescription", "Primitive": true },
+          { "Name": "FlowGroupId", "Primitive": true },
+          { "Name": "FlowGroupTitle", "Primitive": true },
+          { "Name": "FlowMilestoneComment", "Primitive": true },
+          { "Name": "FlowMilestoneType", "Primitive": true },
+          { "Name": "FlowPeriodTitle", "Primitive": true },
+          { "Name": "FlowPreAssignmentDetails", "Primitive": true },
+          { "Name": "FlowReasonComment", "Primitive": true },
+          { "Name": "FlowReasonGroupId", "Primitive": true },
+          {
+            "Name": "FlowReasonNumSubjects",
+            "Order": "Numeric",
+            "Primitive": true
+          },
+          {
+            "Name": "FlowReasonNumUnits",
+            "Order": "Numeric",
+            "Primitive": true
+          },
+          { "Name": "FlowRecruitmentDetails", "Primitive": true },
+          { "Name": "FlowTypeUnitsAnalyzed", "Primitive": true },
+          { "Name": "Gender", "Primitive": true },
+          { "Name": "GenderBased", "Primitive": true },
+          { "Name": "GenderDescription", "Primitive": true },
+          { "Name": "HasExpandedAccess", "Primitive": true },
+          { "Name": "HealthyVolunteers", "Primitive": true },
+          { "Name": "IPDSharing", "Primitive": true },
+          { "Name": "IPDSharingAccessCriteria", "Primitive": true },
+          { "Name": "IPDSharingDescription", "Primitive": true },
+          { "Name": "IPDSharingInfoType", "Primitive": true },
+          { "Name": "IPDSharingTimeFrame", "Primitive": true },
+          { "Name": "IPDSharingURL", "Primitive": true },
+          { "Name": "InterventionAncestorId", "Primitive": true },
+          { "Name": "InterventionAncestorTerm", "Primitive": true },
+          { "Name": "InterventionArmGroupLabel", "Primitive": true },
+          { "Name": "InterventionBrowseBranchAbbrev", "Primitive": true },
+          { "Name": "InterventionBrowseBranchName", "Primitive": true },
+          { "Name": "InterventionBrowseLeafAsFound", "Primitive": true },
+          { "Name": "InterventionBrowseLeafId", "Primitive": true },
+          { "Name": "InterventionBrowseLeafName", "Primitive": true },
+          { "Name": "InterventionBrowseLeafRelevance", "Primitive": true },
+          { "Name": "InterventionDescription", "Primitive": true },
+          { "Name": "InterventionMeshId", "Primitive": true },
+          { "Name": "InterventionMeshTerm", "Primitive": true },
+          { "Name": "InterventionName", "Primitive": true },
+          { "Name": "InterventionOtherName", "Primitive": true },
+          { "Name": "InterventionType", "Primitive": true },
+          { "Name": "IsFDARegulatedDevice", "Primitive": true },
+          { "Name": "IsFDARegulatedDrug", "Primitive": true },
+          { "Name": "IsPPSD", "Primitive": true },
+          { "Name": "IsUSExport", "Primitive": true },
+          { "Name": "IsUnapprovedDevice", "Primitive": true },
+          { "Name": "Keyword", "Primitive": true },
+          { "Name": "LargeDocDate", "Order": "Date", "Primitive": true },
+          { "Name": "LargeDocFilename", "Primitive": true },
+          { "Name": "LargeDocHasICF", "Primitive": true },
+          { "Name": "LargeDocHasProtocol", "Primitive": true },
+          { "Name": "LargeDocHasSAP", "Primitive": true },
+          { "Name": "LargeDocLabel", "Primitive": true },
+          { "Name": "LargeDocTypeAbbrev", "Primitive": true },
+          { "Name": "LargeDocUploadDate", "Order": "Date", "Primitive": true },
+          { "Name": "LastKnownStatus", "Primitive": true },
+          { "Name": "LastUpdatePostDate", "Order": "Date", "Primitive": true },
+          { "Name": "LastUpdatePostDateType", "Primitive": true },
+          {
+            "Name": "LastUpdateSubmitDate",
+            "Order": "Date",
+            "Primitive": true
+          },
+          { "Name": "LeadSponsorClass", "Primitive": true },
+          { "Name": "LeadSponsorName", "Primitive": true },
+          { "Name": "LimitationsAndCaveatsDescription", "Primitive": true },
+          { "Name": "LocationCity", "Primitive": true },
+          { "Name": "LocationContactEMail", "Primitive": true },
+          { "Name": "LocationContactName", "Primitive": true },
+          { "Name": "LocationContactPhone", "Primitive": true },
+          { "Name": "LocationContactPhoneExt", "Primitive": true },
+          { "Name": "LocationContactRole", "Primitive": true },
+          { "Name": "LocationCountry", "Primitive": true },
+          { "Name": "LocationFacility", "Primitive": true },
+          { "Name": "LocationState", "Primitive": true },
+          { "Name": "LocationStatus", "Primitive": true },
+          { "Name": "LocationZip", "Primitive": true },
+          { "Name": "MaximumAge", "Order": "Time", "Primitive": true },
+          { "Name": "MinimumAge", "Order": "Time", "Primitive": true },
+          { "Name": "NCTId", "Primitive": true },
+          { "Name": "NCTIdAlias", "Primitive": true },
+          { "Name": "OfficialTitle", "Primitive": true },
+          { "Name": "OrgClass", "Primitive": true },
+          { "Name": "OrgFullName", "Primitive": true },
+          { "Name": "OrgStudyId", "Primitive": true },
+          { "Name": "OrgStudyIdDomain", "Primitive": true },
+          { "Name": "OrgStudyIdLink", "Primitive": true },
+          { "Name": "OrgStudyIdType", "Primitive": true },
+          { "Name": "OtherEventAssessmentType", "Primitive": true },
+          { "Name": "OtherEventNotes", "Primitive": true },
+          { "Name": "OtherEventOrganSystem", "Primitive": true },
+          { "Name": "OtherEventSourceVocabulary", "Primitive": true },
+          { "Name": "OtherEventStatsGroupId", "Primitive": true },
+          { "Name": "OtherEventStatsNumAffected", "Primitive": true },
+          { "Name": "OtherEventStatsNumAtRisk", "Primitive": true },
+          { "Name": "OtherEventStatsNumEvents", "Primitive": true },
+          { "Name": "OtherEventTerm", "Primitive": true },
+          { "Name": "OtherOutcomeDescription", "Primitive": true },
+          { "Name": "OtherOutcomeMeasure", "Primitive": true },
+          { "Name": "OtherOutcomeTimeFrame", "Primitive": true },
+          { "Name": "OutcomeAnalysisCILowerLimit", "Primitive": true },
+          { "Name": "OutcomeAnalysisCILowerLimitComment", "Primitive": true },
+          { "Name": "OutcomeAnalysisCINumSides", "Primitive": true },
+          { "Name": "OutcomeAnalysisCIPctValue", "Primitive": true },
+          { "Name": "OutcomeAnalysisCIUpperLimit", "Primitive": true },
+          { "Name": "OutcomeAnalysisCIUpperLimitComment", "Primitive": true },
+          { "Name": "OutcomeAnalysisDispersionType", "Primitive": true },
+          { "Name": "OutcomeAnalysisDispersionValue", "Primitive": true },
+          { "Name": "OutcomeAnalysisEstimateComment", "Primitive": true },
+          { "Name": "OutcomeAnalysisGroupDescription", "Primitive": true },
+          { "Name": "OutcomeAnalysisGroupId", "Primitive": true },
+          { "Name": "OutcomeAnalysisNonInferiorityComment", "Primitive": true },
+          { "Name": "OutcomeAnalysisNonInferiorityType", "Primitive": true },
+          {
+            "Name": "OutcomeAnalysisOtherAnalysisDescription",
+            "Primitive": true
+          },
+          { "Name": "OutcomeAnalysisPValue", "Primitive": true },
+          { "Name": "OutcomeAnalysisPValueComment", "Primitive": true },
+          { "Name": "OutcomeAnalysisParamType", "Primitive": true },
+          { "Name": "OutcomeAnalysisParamValue", "Primitive": true },
+          { "Name": "OutcomeAnalysisStatisticalComment", "Primitive": true },
+          { "Name": "OutcomeAnalysisStatisticalMethod", "Primitive": true },
+          { "Name": "OutcomeAnalysisTestedNonInferiority", "Primitive": true },
+          { "Name": "OutcomeCategoryTitle", "Primitive": true },
+          { "Name": "OutcomeClassDenomCountGroupId", "Primitive": true },
+          {
+            "Name": "OutcomeClassDenomCountValue",
+            "Order": "Numeric",
+            "Primitive": true
+          },
+          { "Name": "OutcomeClassDenomUnits", "Primitive": true },
+          { "Name": "OutcomeClassTitle", "Primitive": true },
+          { "Name": "OutcomeDenomCountGroupId", "Primitive": true },
+          {
+            "Name": "OutcomeDenomCountValue",
+            "Order": "Numeric",
+            "Primitive": true
+          },
+          { "Name": "OutcomeDenomUnits", "Primitive": true },
+          { "Name": "OutcomeGroupDescription", "Primitive": true },
+          { "Name": "OutcomeGroupId", "Primitive": true },
+          { "Name": "OutcomeGroupTitle", "Primitive": true },
+          {
+            "Name": "OutcomeMeasureAnticipatedPostingDate",
+            "Order": "Date",
+            "Primitive": true
+          },
+          { "Name": "OutcomeMeasureCalculatePct", "Primitive": true },
+          { "Name": "OutcomeMeasureDenomUnitsSelected", "Primitive": true },
+          { "Name": "OutcomeMeasureDescription", "Primitive": true },
+          { "Name": "OutcomeMeasureDispersionType", "Primitive": true },
+          { "Name": "OutcomeMeasureParamType", "Primitive": true },
+          { "Name": "OutcomeMeasurePopulationDescription", "Primitive": true },
+          { "Name": "OutcomeMeasureReportingStatus", "Primitive": true },
+          { "Name": "OutcomeMeasureTimeFrame", "Primitive": true },
+          { "Name": "OutcomeMeasureTitle", "Primitive": true },
+          { "Name": "OutcomeMeasureType", "Primitive": true },
+          { "Name": "OutcomeMeasureTypeUnitsAnalyzed", "Primitive": true },
+          { "Name": "OutcomeMeasureUnitOfMeasure", "Primitive": true },
+          { "Name": "OutcomeMeasurementComment", "Primitive": true },
+          { "Name": "OutcomeMeasurementGroupId", "Primitive": true },
+          { "Name": "OutcomeMeasurementLowerLimit", "Primitive": true },
+          { "Name": "OutcomeMeasurementSpread", "Primitive": true },
+          { "Name": "OutcomeMeasurementUpperLimit", "Primitive": true },
+          { "Name": "OutcomeMeasurementValue", "Primitive": true },
+          { "Name": "OverallOfficialAffiliation", "Primitive": true },
+          { "Name": "OverallOfficialName", "Primitive": true },
+          { "Name": "OverallOfficialRole", "Primitive": true },
+          { "Name": "OverallStatus", "Primitive": true },
+          { "Name": "OversightHasDMC", "Primitive": true },
+          { "Name": "PatientRegistry", "Primitive": true },
+          { "Name": "Phase", "Primitive": true },
+          { "Name": "PointOfContactEMail", "Primitive": true },
+          { "Name": "PointOfContactOrganization", "Primitive": true },
+          { "Name": "PointOfContactPhone", "Primitive": true },
+          { "Name": "PointOfContactPhoneExt", "Primitive": true },
+          { "Name": "PointOfContactTitle", "Primitive": true },
+          {
+            "Name": "PrimaryCompletionDate",
+            "Order": "Date",
+            "Primitive": true
+          },
+          { "Name": "PrimaryCompletionDateType", "Primitive": true },
+          { "Name": "PrimaryOutcomeDescription", "Primitive": true },
+          { "Name": "PrimaryOutcomeMeasure", "Primitive": true },
+          { "Name": "PrimaryOutcomeTimeFrame", "Primitive": true },
+          { "Name": "ReferenceCitation", "Primitive": true },
+          { "Name": "ReferencePMID", "Primitive": true },
+          { "Name": "ReferenceType", "Primitive": true },
+          { "Name": "RemovedCountry", "Primitive": true },
+          {
+            "Name": "ResponsiblePartyInvestigatorAffiliation",
+            "Primitive": true
+          },
+          { "Name": "ResponsiblePartyInvestigatorFullName", "Primitive": true },
+          { "Name": "ResponsiblePartyInvestigatorTitle", "Primitive": true },
+          { "Name": "ResponsiblePartyOldNameTitle", "Primitive": true },
+          { "Name": "ResponsiblePartyOldOrganization", "Primitive": true },
+          { "Name": "ResponsiblePartyType", "Primitive": true },
+          {
+            "Name": "ResultsFirstPostDate",
+            "Order": "Date",
+            "Primitive": true
+          },
+          { "Name": "ResultsFirstPostDateType", "Primitive": true },
+          {
+            "Name": "ResultsFirstPostedQCCommentsDate",
+            "Order": "Date",
+            "Primitive": true
+          },
+          { "Name": "ResultsFirstPostedQCCommentsDateType", "Primitive": true },
+          {
+            "Name": "ResultsFirstSubmitDate",
+            "Order": "Date",
+            "Primitive": true
+          },
+          {
+            "Name": "ResultsFirstSubmitQCDate",
+            "Order": "Date",
+            "Primitive": true
+          },
+          { "Name": "RetractionPMID", "Primitive": true },
+          { "Name": "RetractionSource", "Primitive": true },
+          { "Name": "SamplingMethod", "Primitive": true },
+          { "Name": "SecondaryId", "Primitive": true },
+          { "Name": "SecondaryIdDomain", "Primitive": true },
+          { "Name": "SecondaryIdLink", "Primitive": true },
+          { "Name": "SecondaryIdType", "Primitive": true },
+          { "Name": "SecondaryOutcomeDescription", "Primitive": true },
+          { "Name": "SecondaryOutcomeMeasure", "Primitive": true },
+          { "Name": "SecondaryOutcomeTimeFrame", "Primitive": true },
+          { "Name": "SeeAlsoLinkLabel", "Primitive": true },
+          { "Name": "SeeAlsoLinkURL", "Primitive": true },
+          { "Name": "SeriousEventAssessmentType", "Primitive": true },
+          { "Name": "SeriousEventNotes", "Primitive": true },
+          { "Name": "SeriousEventOrganSystem", "Primitive": true },
+          { "Name": "SeriousEventSourceVocabulary", "Primitive": true },
+          { "Name": "SeriousEventStatsGroupId", "Primitive": true },
+          { "Name": "SeriousEventStatsNumAffected", "Primitive": true },
+          { "Name": "SeriousEventStatsNumAtRisk", "Primitive": true },
+          { "Name": "SeriousEventStatsNumEvents", "Primitive": true },
+          { "Name": "SeriousEventTerm", "Primitive": true },
+          { "Name": "StartDate", "Order": "Date", "Primitive": true },
+          { "Name": "StartDateType", "Primitive": true },
+          { "Name": "StatusVerifiedDate", "Order": "Date", "Primitive": true },
+          { "Name": "StdAge", "Primitive": true },
+          { "Name": "StudyFirstPostDate", "Order": "Date", "Primitive": true },
+          { "Name": "StudyFirstPostDateType", "Primitive": true },
+          {
+            "Name": "StudyFirstSubmitDate",
+            "Order": "Date",
+            "Primitive": true
+          },
+          {
+            "Name": "StudyFirstSubmitQCDate",
+            "Order": "Date",
+            "Primitive": true
+          },
+          { "Name": "StudyPopulation", "Primitive": true },
+          { "Name": "StudyType", "Primitive": true },
+          {
+            "Name": "SubmissionMCPReleaseN",
+            "Order": "Numeric",
+            "Primitive": true
+          },
+          {
+            "Name": "SubmissionReleaseDate",
+            "Order": "Date",
+            "Primitive": true
+          },
+          { "Name": "SubmissionResetDate", "Order": "Date", "Primitive": true },
+          {
+            "Name": "SubmissionUnreleaseDate",
+            "Order": "Date",
+            "Primitive": true
+          },
+          { "Name": "TargetDuration", "Order": "Time", "Primitive": true },
+          { "Name": "UnpostedEventDate", "Order": "Date", "Primitive": true },
+          { "Name": "UnpostedEventType", "Primitive": true },
+          { "Name": "UnpostedResponsibleParty", "Primitive": true },
+          { "Name": "VersionHolder", "Order": "Date", "Primitive": true },
+          { "Name": "WhyStopped", "Primitive": true }
+        ]
+      },
+      {
+        "StructName": "Location",
+        "Areas": [
+          {
+            "Name": "LocationBasicSearch",
+            "Parts": [
+              { "Weight": 0.9, "FieldName": "LocationCountry" },
+              { "Weight": 0.8, "FieldName": "LocationState" },
+              { "Weight": 0.7, "FieldName": "LocationCity" },
+              { "Weight": 0.6, "FieldName": "LocationFacility" },
+              { "Weight": 0.3, "FieldName": "LocationStatus" },
+              { "Weight": 0.1, "FieldName": "LocationZip" }
+            ]
+          },
+          { "Name": "LocationCity", "Primitive": true },
+          { "Name": "LocationContactEMail", "Primitive": true },
+          { "Name": "LocationContactName", "Primitive": true },
+          { "Name": "LocationContactPhone", "Primitive": true },
+          { "Name": "LocationContactPhoneExt", "Primitive": true },
+          { "Name": "LocationContactRole", "Primitive": true },
+          { "Name": "LocationCountry", "Primitive": true },
+          { "Name": "LocationFacility", "Primitive": true },
+          { "Name": "LocationState", "Primitive": true },
+          { "Name": "LocationStatus", "Primitive": true },
+          { "Name": "LocationZip", "Primitive": true }
+        ]
+      }
+    ]
+  }
+}

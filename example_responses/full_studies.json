@@ -1,0 +1,558 @@
+{
+  "FullStudiesResponse": {
+    "APIVrs": "1.01.05",
+    "DataVrs": "2022:12:29 23:35:39.446",
+    "Expression": "ALL",
+    "NStudiesAvail": 437548,
+    "NStudiesFound": 437548,
+    "MinRank": 1,
+    "MaxRank": 1,
+    "NStudiesReturned": 1,
+    "FullStudies": [
+      {
+        "Rank": 1,
+        "Study": {
+          "ProtocolSection": {
+            "IdentificationModule": {
+              "NCTId": "NCT05669482",
+              "OrgStudyIdInfo": { "OrgStudyId": "VS-6766-205" },
+              "Organization": {
+                "OrgFullName": "Verastem, Inc.",
+                "OrgClass": "INDUSTRY"
+              },
+              "BriefTitle": "Study of Avutometinib (VS-6766) +Defactinib With Gemcitabine and Nab-paclitaxel in Patients With Pancreatic Cancer",
+              "OfficialTitle": "A Phase 1b/2a Study of Gemcitabine and Nab-paclitaxel in Combination With Avutometinib (VS-6766) and Defactinib in Patients With Previously Untreated Metastatic Adenocarcinoma of the Pancreas",
+              "Acronym": "RAMP205"
+            },
+            "StatusModule": {
+              "StatusVerifiedDate": "December 2022",
+              "OverallStatus": "Not yet recruiting",
+              "ExpandedAccessInfo": { "HasExpandedAccess": "No" },
+              "StartDateStruct": {
+                "StartDate": "January 15, 2023",
+                "StartDateType": "Anticipated"
+              },
+              "PrimaryCompletionDateStruct": {
+                "PrimaryCompletionDate": "May 31, 2025",
+                "PrimaryCompletionDateType": "Anticipated"
+              },
+              "CompletionDateStruct": {
+                "CompletionDate": "December 31, 2025",
+                "CompletionDateType": "Anticipated"
+              },
+              "StudyFirstSubmitDate": "December 6, 2022",
+              "StudyFirstSubmitQCDate": "December 19, 2022",
+              "StudyFirstPostDateStruct": {
+                "StudyFirstPostDate": "December 30, 2022",
+                "StudyFirstPostDateType": "Estimate"
+              },
+              "LastUpdateSubmitDate": "December 19, 2022",
+              "LastUpdatePostDateStruct": {
+                "LastUpdatePostDate": "December 30, 2022",
+                "LastUpdatePostDateType": "Estimate"
+              }
+            },
+            "SponsorCollaboratorsModule": {
+              "ResponsibleParty": { "ResponsiblePartyType": "Sponsor" },
+              "LeadSponsor": {
+                "LeadSponsorName": "Verastem, Inc.",
+                "LeadSponsorClass": "INDUSTRY"
+              }
+            },
+            "OversightModule": {
+              "OversightHasDMC": "No",
+              "IsFDARegulatedDrug": "Yes",
+              "IsFDARegulatedDevice": "No"
+            },
+            "DescriptionModule": {
+              "BriefSummary": "This study will assess the safety and efficacy of avutometinib (VS-6766) and defactinib in combination with gemcitabine and nab-paclitaxel in patients with Pancreatic Ductal Adenocarcinoma (PDAC) who have been previously untreated.",
+              "DetailedDescription": "This is a multicenter, non-randomized, open-label Phase 1/2 study designed to evaluate safety, tolerability and efficacy of avutometinib (VS-6766) and defactinib in combination with gemcitabine and nab-paclitaxel in patients previously untreated metastatic Pancreatic Ductal Adenocarcinoma (PDAC)."
+            },
+            "ConditionsModule": {
+              "ConditionList": {
+                "Condition": [
+                  "KRAS Activating Mutation",
+                  "Metastatic Cancer",
+                  "Pancreas Cancer",
+                  "Neoplasms Pancreatic",
+                  "Malignant Neoplasm of Pancreas"
+                ]
+              },
+              "KeywordList": {
+                "Keyword": [
+                  "avutometinib (VS-6766)",
+                  "Metastatic Cancer",
+                  "KRAS Mutation",
+                  "Pancreatic Cancer"
+                ]
+              }
+            },
+            "DesignModule": {
+              "StudyType": "Interventional",
+              "PhaseList": { "Phase": ["Phase 1", "Phase 2"] },
+              "DesignInfo": {
+                "DesignAllocation": "Non-Randomized",
+                "DesignInterventionModel": "Sequential Assignment",
+                "DesignPrimaryPurpose": "Treatment",
+                "DesignMaskingInfo": { "DesignMasking": "None (Open Label)" }
+              },
+              "EnrollmentInfo": {
+                "EnrollmentCount": "40",
+                "EnrollmentType": "Anticipated"
+              }
+            },
+            "ArmsInterventionsModule": {
+              "ArmGroupList": {
+                "ArmGroup": [
+                  {
+                    "ArmGroupLabel": "Gemcitabine + nab-paclitaxel + avutometinib (VS-6766) + defactinib",
+                    "ArmGroupType": "Experimental",
+                    "ArmGroupDescription": "To determine the recommended phase 2 dose (RP2D) for gemcitabine Gemcitabine + nab-paclitaxel + avutometinib (VS-6766) + defactinib in patients with untreated metastatic PDAC.",
+                    "ArmGroupInterventionList": {
+                      "ArmGroupInterventionName": [
+                        "Drug: avutometinib (VS-6766) and defactinib in combination with gemcitabine and nab-paclitaxel"
+                      ]
+                    }
+                  },
+                  {
+                    "ArmGroupLabel": "Gemcitabine + nab-paclitaxel + avutometinib (VS-6766) + defactinib RP2D",
+                    "ArmGroupType": "Experimental",
+                    "ArmGroupDescription": "To determine the efficacy of the RP2D identified in Part A in untreated metastatic PDAC patients",
+                    "ArmGroupInterventionList": {
+                      "ArmGroupInterventionName": [
+                        "Drug: avutometinib (VS-6766) and defactinib in combination with gemcitabine and nab-paclitaxel"
+                      ]
+                    }
+                  }
+                ]
+              },
+              "InterventionList": {
+                "Intervention": [
+                  {
+                    "InterventionType": "Drug",
+                    "InterventionName": "avutometinib (VS-6766) and defactinib in combination with gemcitabine and nab-paclitaxel",
+                    "InterventionDescription": "The RP2D of avutometinib (VS-6766) and defactinib in combination with gemcitabine and nab-paclitaxel determined in Part A will be used in Part B dose expansion.",
+                    "InterventionArmGroupLabelList": {
+                      "InterventionArmGroupLabel": [
+                        "Gemcitabine + nab-paclitaxel + avutometinib (VS-6766) + defactinib",
+                        "Gemcitabine + nab-paclitaxel + avutometinib (VS-6766) + defactinib RP2D"
+                      ]
+                    },
+                    "InterventionOtherNameList": {
+                      "InterventionOtherName": ["Gemzar", "Abraxane"]
+                    }
+                  }
+                ]
+              }
+            },
+            "OutcomesModule": {
+              "PrimaryOutcomeList": {
+                "PrimaryOutcome": [
+                  {
+                    "PrimaryOutcomeMeasure": "Part A: To determine RP2D for avutometinib (VS-6766) and defactinib in combination gemcitabine and nab-paclitaxel",
+                    "PrimaryOutcomeDescription": "Assessment of Dose-limiting toxicities (DLTs)",
+                    "PrimaryOutcomeTimeFrame": "28 days"
+                  },
+                  {
+                    "PrimaryOutcomeMeasure": "To determine the efficacy of the RP2D identified in Part A",
+                    "PrimaryOutcomeDescription": "Confirmed overall response rate (ORR) (partial response [PR] + complete response [CR] defined according to Response Evaluation Criteria in Solid Tumors version 1.1 [RECIST 1.1])",
+                    "PrimaryOutcomeTimeFrame": "6 months"
+                  }
+                ]
+              },
+              "SecondaryOutcomeList": {
+                "SecondaryOutcome": [
+                  {
+                    "SecondaryOutcomeMeasure": "Duration of Response (DOR)",
+                    "SecondaryOutcomeDescription": "Time of first response to PD as assessed per RECIST 1.1",
+                    "SecondaryOutcomeTimeFrame": "24 months"
+                  },
+                  {
+                    "SecondaryOutcomeMeasure": "Disease Control Rate (DCR)",
+                    "SecondaryOutcomeDescription": "CR + PR + SD as assessed per RECIST 1.1",
+                    "SecondaryOutcomeTimeFrame": "24 months"
+                  },
+                  {
+                    "SecondaryOutcomeMeasure": "Progression Free Survival (PFS)",
+                    "SecondaryOutcomeDescription": "From the time of first dose of study intervention to PD as assessed per RECIST 1.1 or death from any cause",
+                    "SecondaryOutcomeTimeFrame": "24 months"
+                  },
+                  {
+                    "SecondaryOutcomeMeasure": "Overall Survival (OS)",
+                    "SecondaryOutcomeDescription": "From the time of first dose of study intervention to PD as assessed per RECIST 1.1 or death from any cause",
+                    "SecondaryOutcomeTimeFrame": "Up to 5 years"
+                  },
+                  {
+                    "SecondaryOutcomeMeasure": "Plasma Pharmacokinetics (PK) of avutometinib (VS-6766) and Defactinib and relevant metabolites, Tmax",
+                    "SecondaryOutcomeDescription": "Time to Maximum concentration (Tmax)",
+                    "SecondaryOutcomeTimeFrame": "10 weeks"
+                  },
+                  {
+                    "SecondaryOutcomeMeasure": "Plasma Pharmacokinetics (PK) of avutometinib (VS-6766) and Defactinib and relevant metabolites, AUC",
+                    "SecondaryOutcomeDescription": "Area under plasma Concentration (AUC) 0 to t",
+                    "SecondaryOutcomeTimeFrame": "10 Weeks"
+                  },
+                  {
+                    "SecondaryOutcomeMeasure": "Plasma Pharmacokinetics (PK) of avutometinib (VS-6766) and Defactinib and relevant metabolites, Half-life",
+                    "SecondaryOutcomeDescription": "concentration Half-life (T1/2)",
+                    "SecondaryOutcomeTimeFrame": "10 weeks"
+                  },
+                  {
+                    "SecondaryOutcomeMeasure": "Frequency and severity adverse events (AEs) and Serious Adverse Events (SAEs)",
+                    "SecondaryOutcomeDescription": "Count of AE and SAEs by grade, based on the National Cancer Institute Common Terminology Criteria for Adverse Events (NCI CTCAE) grading scale",
+                    "SecondaryOutcomeTimeFrame": "24 months"
+                  },
+                  {
+                    "SecondaryOutcomeMeasure": "Number of abnormal laboratory values",
+                    "SecondaryOutcomeDescription": "Count of abnormal laboratory values by grade",
+                    "SecondaryOutcomeTimeFrame": "24 months"
+                  }
+                ]
+              }
+            },
+            "EligibilityModule": {
+              "EligibilityCriteria": "Inclusion Criteria:\n\nMale or female subjects \u2265 18 years of age\nHistologic or cytologic evidence of metastatic pancreatic ductal adenocarcinoma.\nAn Eastern Cooperative Group (ECOG) performance status \u2264 1\nMeasurable disease according to RECIST 1.1\nAdequate organ function\nAdequate cardiac function\nAgreement to use highly effective method of contraceptive\n\nExclusion Criteria:\n\nPatients with pancreatic neuroendocrine tumors\nPrior or concomitant treatment for metastatic pancreatic ductal adenocarcinoma\nPrior treatment with inhibitors of the RAS /MAPK pathway [e.g. MEK inhibitors] or inhibitors of FAK\nHistory of prior malignancy, with the exception of curatively treated malignancies\nMajor surgery within 4 weeks (excluding placement of vascular access)\nConcurrent heart disease or severe obstructive pulmonary disease\nConcurrent ocular disorders\nActive skin disorder that has required systemic therapy within the past 1 year\nPatients with interstitial lung disease or pulmonary fibrosis or severe lung disease, pulmonary edema, and adult respiratory distress syndrome\nKnown SARS-Cov2 infection \u226428 days prior to first dose of study therapy",
+              "HealthyVolunteers": "No",
+              "Gender": "All",
+              "MinimumAge": "18 Years",
+              "StdAgeList": { "StdAge": ["Adult", "Older Adult"] }
+            },
+            "ContactsLocationsModule": {
+              "CentralContactList": {
+                "CentralContact": [
+                  {
+                    "CentralContactName": "Verastem Call Center",
+                    "CentralContactRole": "Contact",
+                    "CentralContactPhone": "1 781 292 4204",
+                    "CentralContactEMail": "clinicaltrials@verastem.com"
+                  }
+                ]
+              },
+              "OverallOfficialList": {
+                "OverallOfficial": [
+                  {
+                    "OverallOfficialName": "MD Verastem",
+                    "OverallOfficialAffiliation": "Verastem, Inc.",
+                    "OverallOfficialRole": "Study Director"
+                  }
+                ]
+              }
+            }
+          },
+          "DerivedSection": {
+            "MiscInfoModule": { "VersionHolder": "December 30, 2022" },
+            "ConditionBrowseModule": {
+              "ConditionMeshList": {
+                "ConditionMesh": [
+                  {
+                    "ConditionMeshId": "D000009369",
+                    "ConditionMeshTerm": "Neoplasms"
+                  },
+                  {
+                    "ConditionMeshId": "D000009362",
+                    "ConditionMeshTerm": "Neoplasm Metastasis"
+                  },
+                  {
+                    "ConditionMeshId": "D000010190",
+                    "ConditionMeshTerm": "Pancreatic Neoplasms"
+                  }
+                ]
+              },
+              "ConditionAncestorList": {
+                "ConditionAncestor": [
+                  {
+                    "ConditionAncestorId": "D000009385",
+                    "ConditionAncestorTerm": "Neoplastic Processes"
+                  },
+                  {
+                    "ConditionAncestorId": "D000010335",
+                    "ConditionAncestorTerm": "Pathologic Processes"
+                  },
+                  {
+                    "ConditionAncestorId": "D000004067",
+                    "ConditionAncestorTerm": "Digestive System Neoplasms"
+                  },
+                  {
+                    "ConditionAncestorId": "D000009371",
+                    "ConditionAncestorTerm": "Neoplasms by Site"
+                  },
+                  {
+                    "ConditionAncestorId": "D000004701",
+                    "ConditionAncestorTerm": "Endocrine Gland Neoplasms"
+                  },
+                  {
+                    "ConditionAncestorId": "D000004066",
+                    "ConditionAncestorTerm": "Digestive System Diseases"
+                  },
+                  {
+                    "ConditionAncestorId": "D000010182",
+                    "ConditionAncestorTerm": "Pancreatic Diseases"
+                  },
+                  {
+                    "ConditionAncestorId": "D000004700",
+                    "ConditionAncestorTerm": "Endocrine System Diseases"
+                  }
+                ]
+              },
+              "ConditionBrowseLeafList": {
+                "ConditionBrowseLeaf": [
+                  {
+                    "ConditionBrowseLeafId": "M11459",
+                    "ConditionBrowseLeafName": "Neoplasm Metastasis",
+                    "ConditionBrowseLeafAsFound": "Metastatic Cancer",
+                    "ConditionBrowseLeafRelevance": "high"
+                  },
+                  {
+                    "ConditionBrowseLeafId": "M12262",
+                    "ConditionBrowseLeafName": "Pancreatic Neoplasms",
+                    "ConditionBrowseLeafAsFound": "Malignant Neoplasm of Pancreas",
+                    "ConditionBrowseLeafRelevance": "high"
+                  },
+                  {
+                    "ConditionBrowseLeafId": "M2737",
+                    "ConditionBrowseLeafName": "Adenocarcinoma",
+                    "ConditionBrowseLeafRelevance": "low"
+                  },
+                  {
+                    "ConditionBrowseLeafId": "M11482",
+                    "ConditionBrowseLeafName": "Neoplastic Processes",
+                    "ConditionBrowseLeafRelevance": "low"
+                  },
+                  {
+                    "ConditionBrowseLeafId": "M8038",
+                    "ConditionBrowseLeafName": "Gastrointestinal Neoplasms",
+                    "ConditionBrowseLeafRelevance": "low"
+                  },
+                  {
+                    "ConditionBrowseLeafId": "M6408",
+                    "ConditionBrowseLeafName": "Digestive System Neoplasms",
+                    "ConditionBrowseLeafRelevance": "low"
+                  },
+                  {
+                    "ConditionBrowseLeafId": "M7015",
+                    "ConditionBrowseLeafName": "Endocrine Gland Neoplasms",
+                    "ConditionBrowseLeafRelevance": "low"
+                  },
+                  {
+                    "ConditionBrowseLeafId": "M8035",
+                    "ConditionBrowseLeafName": "Gastrointestinal Diseases",
+                    "ConditionBrowseLeafRelevance": "low"
+                  },
+                  {
+                    "ConditionBrowseLeafId": "M6407",
+                    "ConditionBrowseLeafName": "Digestive System Diseases",
+                    "ConditionBrowseLeafRelevance": "low"
+                  },
+                  {
+                    "ConditionBrowseLeafId": "M12254",
+                    "ConditionBrowseLeafName": "Pancreatic Diseases",
+                    "ConditionBrowseLeafRelevance": "low"
+                  },
+                  {
+                    "ConditionBrowseLeafId": "M7014",
+                    "ConditionBrowseLeafName": "Endocrine System Diseases",
+                    "ConditionBrowseLeafRelevance": "low"
+                  },
+                  {
+                    "ConditionBrowseLeafId": "T4387",
+                    "ConditionBrowseLeafName": "Pancreatic Cancer",
+                    "ConditionBrowseLeafAsFound": "Malignant Neoplasm of Pancreas",
+                    "ConditionBrowseLeafRelevance": "high"
+                  }
+                ]
+              },
+              "ConditionBrowseBranchList": {
+                "ConditionBrowseBranch": [
+                  {
+                    "ConditionBrowseBranchAbbrev": "BC04",
+                    "ConditionBrowseBranchName": "Neoplasms"
+                  },
+                  {
+                    "ConditionBrowseBranchAbbrev": "BC23",
+                    "ConditionBrowseBranchName": "Symptoms and General Pathology"
+                  },
+                  {
+                    "ConditionBrowseBranchAbbrev": "All",
+                    "ConditionBrowseBranchName": "All Conditions"
+                  },
+                  {
+                    "ConditionBrowseBranchAbbrev": "BC06",
+                    "ConditionBrowseBranchName": "Digestive System Diseases"
+                  },
+                  {
+                    "ConditionBrowseBranchAbbrev": "BC19",
+                    "ConditionBrowseBranchName": "Gland and Hormone Related Diseases"
+                  },
+                  {
+                    "ConditionBrowseBranchAbbrev": "Rare",
+                    "ConditionBrowseBranchName": "Rare Diseases"
+                  }
+                ]
+              }
+            },
+            "InterventionBrowseModule": {
+              "InterventionMeshList": {
+                "InterventionMesh": [
+                  {
+                    "InterventionMeshId": "C000056507",
+                    "InterventionMeshTerm": "Gemcitabine"
+                  },
+                  {
+                    "InterventionMeshId": "D000017239",
+                    "InterventionMeshTerm": "Paclitaxel"
+                  }
+                ]
+              },
+              "InterventionAncestorList": {
+                "InterventionAncestor": [
+                  {
+                    "InterventionAncestorId": "D000000972",
+                    "InterventionAncestorTerm": "Antineoplastic Agents, Phytogenic"
+                  },
+                  {
+                    "InterventionAncestorId": "D000000970",
+                    "InterventionAncestorTerm": "Antineoplastic Agents"
+                  },
+                  {
+                    "InterventionAncestorId": "D000050257",
+                    "InterventionAncestorTerm": "Tubulin Modulators"
+                  },
+                  {
+                    "InterventionAncestorId": "D000050256",
+                    "InterventionAncestorTerm": "Antimitotic Agents"
+                  },
+                  {
+                    "InterventionAncestorId": "D000050258",
+                    "InterventionAncestorTerm": "Mitosis Modulators"
+                  },
+                  {
+                    "InterventionAncestorId": "D000045504",
+                    "InterventionAncestorTerm": "Molecular Mechanisms of Pharmacological Action"
+                  },
+                  {
+                    "InterventionAncestorId": "D000000964",
+                    "InterventionAncestorTerm": "Antimetabolites, Antineoplastic"
+                  },
+                  {
+                    "InterventionAncestorId": "D000000963",
+                    "InterventionAncestorTerm": "Antimetabolites"
+                  },
+                  {
+                    "InterventionAncestorId": "D000000998",
+                    "InterventionAncestorTerm": "Antiviral Agents"
+                  },
+                  {
+                    "InterventionAncestorId": "D000000890",
+                    "InterventionAncestorTerm": "Anti-Infective Agents"
+                  },
+                  {
+                    "InterventionAncestorId": "D000004791",
+                    "InterventionAncestorTerm": "Enzyme Inhibitors"
+                  },
+                  {
+                    "InterventionAncestorId": "D000007166",
+                    "InterventionAncestorTerm": "Immunosuppressive Agents"
+                  },
+                  {
+                    "InterventionAncestorId": "D000007155",
+                    "InterventionAncestorTerm": "Immunologic Factors"
+                  },
+                  {
+                    "InterventionAncestorId": "D000045505",
+                    "InterventionAncestorTerm": "Physiological Effects of Drugs"
+                  }
+                ]
+              },
+              "InterventionBrowseLeafList": {
+                "InterventionBrowseLeaf": [
+                  {
+                    "InterventionBrowseLeafId": "M113169",
+                    "InterventionBrowseLeafName": "Gemcitabine",
+                    "InterventionBrowseLeafAsFound": "Open-",
+                    "InterventionBrowseLeafRelevance": "high"
+                  },
+                  {
+                    "InterventionBrowseLeafId": "M18689",
+                    "InterventionBrowseLeafName": "Paclitaxel",
+                    "InterventionBrowseLeafAsFound": "From",
+                    "InterventionBrowseLeafRelevance": "high"
+                  },
+                  {
+                    "InterventionBrowseLeafId": "M231",
+                    "InterventionBrowseLeafName": "Albumin-Bound Paclitaxel",
+                    "InterventionBrowseLeafRelevance": "low"
+                  },
+                  {
+                    "InterventionBrowseLeafId": "M21707",
+                    "InterventionBrowseLeafName": "Pancrelipase",
+                    "InterventionBrowseLeafRelevance": "low"
+                  },
+                  {
+                    "InterventionBrowseLeafId": "M12266",
+                    "InterventionBrowseLeafName": "Pancreatin",
+                    "InterventionBrowseLeafRelevance": "low"
+                  },
+                  {
+                    "InterventionBrowseLeafId": "M25350",
+                    "InterventionBrowseLeafName": "Tubulin Modulators",
+                    "InterventionBrowseLeafRelevance": "low"
+                  },
+                  {
+                    "InterventionBrowseLeafId": "M25349",
+                    "InterventionBrowseLeafName": "Antimitotic Agents",
+                    "InterventionBrowseLeafRelevance": "low"
+                  },
+                  {
+                    "InterventionBrowseLeafId": "M3433",
+                    "InterventionBrowseLeafName": "Antimetabolites",
+                    "InterventionBrowseLeafRelevance": "low"
+                  },
+                  {
+                    "InterventionBrowseLeafId": "M3466",
+                    "InterventionBrowseLeafName": "Antiviral Agents",
+                    "InterventionBrowseLeafRelevance": "low"
+                  },
+                  {
+                    "InterventionBrowseLeafId": "M3366",
+                    "InterventionBrowseLeafName": "Anti-Infective Agents",
+                    "InterventionBrowseLeafRelevance": "low"
+                  },
+                  {
+                    "InterventionBrowseLeafId": "M9364",
+                    "InterventionBrowseLeafName": "Immunosuppressive Agents",
+                    "InterventionBrowseLeafRelevance": "low"
+                  },
+                  {
+                    "InterventionBrowseLeafId": "M9353",
+                    "InterventionBrowseLeafName": "Immunologic Factors",
+                    "InterventionBrowseLeafRelevance": "low"
+                  }
+                ]
+              },
+              "InterventionBrowseBranchList": {
+                "InterventionBrowseBranch": [
+                  {
+                    "InterventionBrowseBranchAbbrev": "Infe",
+                    "InterventionBrowseBranchName": "Anti-Infective Agents"
+                  },
+                  {
+                    "InterventionBrowseBranchAbbrev": "ANeo",
+                    "InterventionBrowseBranchName": "Antineoplastic Agents"
+                  },
+                  {
+                    "InterventionBrowseBranchAbbrev": "All",
+                    "InterventionBrowseBranchName": "All Drugs and Chemicals"
+                  },
+                  {
+                    "InterventionBrowseBranchAbbrev": "Gast",
+                    "InterventionBrowseBranchName": "Gastrointestinal Agents"
+                  }
+                ]
+              }
+            }
+          }
+        }
+      }
+    ]
+  }
+}

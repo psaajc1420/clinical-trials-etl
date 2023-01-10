@@ -1,0 +1,182 @@
+{
+  "StudyFieldsResponse": {
+    "APIVrs": "1.01.05",
+    "DataVrs": "2022:12:29 23:35:39.446",
+    "Expression": "ALL",
+    "NStudiesAvail": 437548,
+    "NStudiesFound": 437548,
+    "MinRank": 1,
+    "MaxRank": 20,
+    "NStudiesReturned": 20,
+    "FieldList": ["NCTId", "Condition", "BriefTitle"],
+    "StudyFields": [
+      {
+        "Rank": 1,
+        "NCTId": ["NCT05669482"],
+        "Condition": [
+          "KRAS Activating Mutation",
+          "Metastatic Cancer",
+          "Pancreas Cancer",
+          "Neoplasms Pancreatic",
+          "Malignant Neoplasm of Pancreas"
+        ],
+        "BriefTitle": [
+          "Study of Avutometinib (VS-6766) +Defactinib With Gemcitabine and Nab-paclitaxel in Patients With Pancreatic Cancer"
+        ]
+      },
+      {
+        "Rank": 2,
+        "NCTId": ["NCT05669469"],
+        "Condition": ["Sleep Apnea", "Obesity"],
+        "BriefTitle": [
+          "Upper Airway of Women With Obstructive Sleep Apnea After Bariatric Surgery"
+        ]
+      },
+      {
+        "Rank": 3,
+        "NCTId": ["NCT05669456"],
+        "Condition": ["Acute Ischemic Stroke", "Ischemic Stroke", "Stroke"],
+        "BriefTitle": ["Zeit Alert for Stroke at Home (ZASH) Protocol"]
+      },
+      {
+        "Rank": 4,
+        "NCTId": ["NCT05669443"],
+        "Condition": ["Prostate Cancer"],
+        "BriefTitle": [
+          "Effect of Optimized PEEP on Mechanical Ventilation During Robot Assisted Laparoscopic Prostatectomy"
+        ]
+      },
+      {
+        "Rank": 5,
+        "NCTId": ["NCT05669430"],
+        "Condition": ["Solid Tumor, Adult", "Refractory Cancer"],
+        "BriefTitle": [
+          "A Study of GV20-0251 in Patients With Solid Tumor Malignancies"
+        ]
+      },
+      {
+        "Rank": 6,
+        "NCTId": ["NCT05669417"],
+        "Condition": ["Atrial Fibrillation New Onset"],
+        "BriefTitle": [
+          "Peri-Operative Magnesium Infusion to Prevent Atrial Fibrillation Evaluated."
+        ]
+      },
+      {
+        "Rank": 7,
+        "NCTId": ["NCT05669404"],
+        "Condition": ["Hypertension"],
+        "BriefTitle": [
+          "Effects of the DASH vs. the Mediterranean Diet Combined With Salt Restriction on Blood Pressure Levels in Adults"
+        ]
+      },
+      {
+        "Rank": 8,
+        "NCTId": ["NCT05669391"],
+        "Condition": ["Pharmacogenomics", "Depression"],
+        "BriefTitle": [
+          "Pharmacogenomics on Individualized Precise Treatment of Patients With Depression"
+        ]
+      },
+      {
+        "Rank": 9,
+        "NCTId": ["NCT05669378"],
+        "Condition": ["Physical Inactivity", "Motor Activity"],
+        "BriefTitle": ["A Good Start Matters Intervention Study"]
+      },
+      {
+        "Rank": 10,
+        "NCTId": ["NCT05669365"],
+        "Condition": [
+          "Dementia",
+          "Dementia, Vascular",
+          "Dementia With Lewy Bodies",
+          "Dementia Alzheimers",
+          "Frontotemporal Dementia"
+        ],
+        "BriefTitle": ["The Care Ecosystem Consortium Effectiveness Study"]
+      },
+      {
+        "Rank": 11,
+        "NCTId": ["NCT05669352"],
+        "Condition": ["Melanoma Metastatic in the Brain"],
+        "BriefTitle": [
+          "A Phase 1/2 Study of Oral IRAK-4 Inhibitor CA-4948 in Combination With Pembrolizumab Following Stereotactic Radiosurgery in Patients With Melanoma Brain Metastases"
+        ]
+      },
+      {
+        "Rank": 12,
+        "NCTId": ["NCT05669339"],
+        "Condition": ["Hepatocellular Carcinoma"],
+        "BriefTitle": [
+          "AD HOC Trial: Artificial Intelligence-Based Drug Dosing In Hepatocellular Carcinoma"
+        ]
+      },
+      {
+        "Rank": 13,
+        "NCTId": ["NCT05669326"],
+        "Condition": ["Malignant Brain Tumor"],
+        "BriefTitle": [
+          "Evaluation of the Contribution of NODDI Protocol Tractography in Brain Tumor Surgery"
+        ]
+      },
+      {
+        "Rank": 14,
+        "NCTId": ["NCT05669313"],
+        "Condition": ["Trauma", "Hypothermia", "Acidosis", "Bleeding"],
+        "BriefTitle": [
+          "The Effects of Hypothermia and Acidosis on Coagulation During Treatment With Rivaroxaban Measured With ROTEM"
+        ]
+      },
+      {
+        "Rank": 15,
+        "NCTId": ["NCT05669300"],
+        "Condition": [
+          "Cesarean Section Complications",
+          "Cesarean Section; Dehiscence"
+        ],
+        "BriefTitle": [
+          "Uterine Closure for Cesarean Section: a Novel Technique"
+        ]
+      },
+      {
+        "Rank": 16,
+        "NCTId": ["NCT05669287"],
+        "Condition": ["PDAC - Pancreatic Ductal Adenocarcinoma"],
+        "BriefTitle": [
+          "Defining a Vascular Phenotype of Pancreatic Ductal Adenocarcinoma With CT Perfusion Using Quantitative Radiomics"
+        ]
+      },
+      {
+        "Rank": 17,
+        "NCTId": ["NCT05669274"],
+        "Condition": ["Lactose Intolerance"],
+        "BriefTitle": [
+          "Comparing the Adaptation of Commercial Milk and A2 Milk in Lactose Maldigesters"
+        ]
+      },
+      {
+        "Rank": 18,
+        "NCTId": ["NCT05669261"],
+        "Condition": ["Long COVID"],
+        "BriefTitle": [
+          "Treatment of Long COVID Utilizing Autologous Stem Cells"
+        ]
+      },
+      {
+        "Rank": 19,
+        "NCTId": ["NCT05669248"],
+        "Condition": ["COVID-19", "Immunosuppression"],
+        "BriefTitle": [
+          "A Follow-up Study of Immunosuppression in Mild Patients With COVID-19"
+        ]
+      },
+      {
+        "Rank": 20,
+        "NCTId": ["NCT05669235"],
+        "Condition": ["COVID-19"],
+        "BriefTitle": ["Differences Between Women With Covid and Long Covid"]
+      }
+    ]
+  }
+}
