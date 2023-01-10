@@ -1,6 +1,5 @@
 
 import config
-import json
 import requests
 import pandas as pd
 
@@ -62,8 +61,7 @@ class Load():
   def load_study_fields(self, df):
     self.db.insert_many(df, 'study')
 
-  
   def write_study_fields(self, df):
-    filepath = Path('data/study_fields_')  
+    filepath = Path(f'data/study_fields_{datetime.now()}.csv')  
     filepath.parent.mkdir(parents=True, exist_ok=True)  
     df.to_csv(filepath)  

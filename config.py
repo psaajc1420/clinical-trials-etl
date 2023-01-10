@@ -7,9 +7,12 @@ print(basedir)
 load_dotenv(path.join(basedir, '.env'))
 
 
-# Database config
+# AWS RDS config
 DBNAME = environ.get('AWS_RDS_DBNAME')
 USERNAME = environ.get('AWS_RDS_USERNAME')
 PASSWORD = environ.get('AWS_RDS_PASSWORD')
 HOST = environ.get('AWS_RDS_HOST')
 PORT = environ.get('AWS_RDS_PORT')
+
+# AWS MSK
+AWS_MSK_BS=environ.get('AWS_MSK_BS')

@@ -1,5 +1,9 @@
 name: ct-env
 
+channels:
+  - conda-forge
+  - defaults
+
 dependencies:
   - python
   - pandas

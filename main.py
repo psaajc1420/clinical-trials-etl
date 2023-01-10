@@ -15,6 +15,7 @@ def main():
   # load
   ct_load = Load()
   ct_load.load_study_fields(df)
+  ct_load.write_study_fields(df)
 
 
 if __name__ == '__main__':
