@@ -11,4 +11,4 @@ dependencies:
   - python-dotenv
   - psycopg2
   - glom
-  - kafka-python
+  - apache-airflow

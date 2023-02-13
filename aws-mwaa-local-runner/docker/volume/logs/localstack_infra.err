@@ -1,0 +1,5 @@
+SERVICES variable is ignored if EAGER_SERVICE_LOADING=0.
+2023-02-13T15:06:03.082  WARN --- [-functhread3] hypercorn.error            : ASGI Framework Lifespan error, continuing without Lifespan support
+2023-02-13T15:06:03.082  WARN --- [-functhread3] hypercorn.error            : ASGI Framework Lifespan error, continuing without Lifespan support
+2023-02-13T15:06:03.089  INFO --- [-functhread3] hypercorn.error            : Running on https://0.0.0.0:4566 (CTRL + C to quit)
+2023-02-13T15:06:03.089  INFO --- [-functhread3] hypercorn.error            : Running on https://0.0.0.0:4566 (CTRL + C to quit)

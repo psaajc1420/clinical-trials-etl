@@ -1,0 +1,7 @@
+DROP TABLE study;
+CREATE TABLE study (
+  ID SERIAL PRIMARY KEY,
+  NCTId VARCHAR(11),
+  Condition VARCHAR(500),
+  BriefTitle VARCHAR(500)
+);
