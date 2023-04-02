@@ -1,0 +1,14 @@
+name: ct-env
+
+channels:
+  - conda-forge
+  - defaults
+
+dependencies:
+  - python
+  - pandas
+  - requests
+  - python-dotenv
+  - psycopg2
+  - glom
+  - kafka-python

@@ -1,0 +1,13 @@
+version: "3.7"
+services:
+  localstack:
+    image: localstack/localstack:latest
+    container_name: "etl-localstack"
+    ports:
+      - "4566:4566"
+    environment:
+      - SERVICES=sqs,sns
+      - DOCKER_HOST=unix:///var/run/docker.sock
+    volumes:
+      - "/var/run/docker.sock:/var/run/docker.sock"
+      - "${LOCALSTACK_VOLUME_DIR:-./volume}:/var/lib/localstack"
